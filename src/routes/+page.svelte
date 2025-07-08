@@ -1,33 +1,97 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import CaseRoulette from '../lib/components/roulette/CaseRoulette.svelte';
   import type { CaseItem } from '../lib/components/roulette/types';
 
-  const dummyItems: CaseItem[] = [
-    { name: 'Item A', rarity: 'Consumer', weight: 100, image: 'https://via.placeholder.com/100x100/FF0000/FFFFFF?text=A' },
-    { name: 'Item B', rarity: 'Industrial', weight: 80, image: 'https://via.placeholder.com/100x100/00FF00/FFFFFF?text=B' },
-    { name: 'Item C', rarity: 'Mil-spec', weight: 60, image: 'https://via.placeholder.com/100x100/0000FF/FFFFFF?text=C' },
-    { name: 'Item D', rarity: 'Restricted', weight: 40, image: 'https://via.placeholder.com/100x100/FFFF00/000000?text=D' },
-    { name: 'Item E', rarity: 'Classified', weight: 20, image: 'https://via.placeholder.com/100x100/FF00FF/FFFFFF?text=E' },
-    { name: 'Item F', rarity: 'Covert', weight: 10, image: 'https://via.placeholder.com/100x100/00FFFF/000000?text=F' },
-    { name: 'Item G', rarity: 'Rare Special Item', weight: 5, image: 'https://via.placeholder.com/100x100/FFA500/FFFFFF?text=G' },
-  ];
+  // Extend CaseItem to include a link
+  interface CompCaseItem extends CaseItem {
+    link: string;
+  }
+
+  let rouletteItems: CompCaseItem[] = [];
+  let loading = true;
+  let error: string | null = null;
+
+  let showWinningModal = false;
+  let winningComp: CompCaseItem | null = null;
+
+  onMount(async () => {
+    try {
+      const response = await fetch('/api/scrape');
+      const result = await response.json();
+
+      if (result.success) {
+        console.log('Scraped Comps for Roulette:', result.data); // Log the scraped data for verification
+        // Process scraped data into CompCaseItem format
+        rouletteItems = result.data.map((comp: { name: string; link: string }) => ({
+          name: comp.name,
+          rarity: 'Consumer', // Default rarity, adjust as needed
+          weight: 100, // Default weight, adjust as needed
+          image: `https://via.placeholder.com/100x100/CCCCCC/000000?text=${comp.name.substring(0, 1)}`, // Placeholder image
+          link: comp.link,
+        }));
+      } else {
+        error = result.message;
+      }
+    } catch (e: any) {
+      error = e.message;
+    } finally {
+      loading = false;
+    }
+  });
 
   function handleItemWon(item: CaseItem) {
-    console.log('Won item:', item.name);
-    alert(`Congratulations! You won: ${item.name}`);
+    winningComp = item as CompCaseItem; // Cast to CompCaseItem
+    showWinningModal = true;
+  }
+
+  function closeWinningModal() {
+    showWinningModal = false;
+    winningComp = null;
   }
 </script>
 
 <div class="min-h-screen flex flex-col items-center justify-center p-8 bg-gray-900 text-white">
   <h1 class="text-5xl font-extrabold mb-8 text-center">
-    Simple Roulette
+    TFT Comp Roulette
   </h1>
 
-  <CaseRoulette
-    items={dummyItems}
-    onItemWon={handleItemWon}
-    spinDuration={8}
-    itemWidth={140}
-    itemsInView={5}
-  />
+  {#if loading}
+    <p>Loading comps...</p>
+  {:else if error}
+    <p class="text-red-500">Error: {error}</p>
+  {:else if rouletteItems.length > 0}
+    <CaseRoulette
+      items={rouletteItems}
+      onItemWon={handleItemWon}
+      spinDuration={8}
+      itemWidth={140}
+      itemsInView={5}
+    />
+  {:else}
+    <p>No comps found. Scraping might have returned empty data or failed.</p>
+  {/if}
+
+  {#if showWinningModal && winningComp}
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-gray-800 p-8 rounded-lg shadow-lg text-center">
+        <h2 class="text-3xl font-bold mb-4">Congratulations!</h2>
+        <p class="text-xl mb-4">You won: {winningComp.name}</p>
+        <a
+          href={winningComp.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200"
+        >
+          View Comp Details
+        </a>
+        <button
+          on:click={closeWinningModal}
+          class="mt-4 bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  {/if}
 </div>
