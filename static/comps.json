@@ -1,241 +1,268 @@
 [
   {
-    "name": "Thirsty, MissFortune, Braum",
+    "name": "Dynamo Miss Fortune Braum",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Braum",
     "color": ""
   },
   {
-    "name": "Thirsty, MissFortune, Aurora",
+    "name": "Dynamo Miss Fortune Aurora",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Aurora",
     "color": ""
   },
   {
-    "name": "StreetDemon, Brand",
+    "name": "Street Demon Brand",
     "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Brand",
     "color": ""
   },
   {
-    "name": "EdgeRunner, Zeri",
+    "name": "Exotech Zeri",
     "link": "https://www.metatft.com/comps#TFT14_EdgeRunner-TFT14_Zeri",
     "color": ""
   },
   {
-    "name": "Controller, Ziggs",
+    "name": "Strategist Ziggs",
     "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_Ziggs",
     "color": ""
   },
   {
-    "name": "Divinicorp, Graves",
+    "name": "Divinicorp Graves",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Graves",
     "color": ""
   },
   {
-    "name": "Thirsty, MissFortune",
+    "name": "Dynamo Miss Fortune",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
     "color": ""
   },
   {
-    "name": "Immortal, Urgot",
+    "name": "Golden Ox Urgot",
     "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Urgot",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
-    "name": "Divinicorp, Vex",
+    "name": "Divinicorp Vex",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
-    "name": "AnimaSquad, Xayah",
+    "name": "Anima Squad Xayah",
     "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Xayah",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
-    "name": "Mob, TwistedFate",
+    "name": "Syndicate Twisted Fate",
     "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
-    "name": "Strong, Shaco",
+    "name": "Slayer Shaco",
     "link": "https://www.metatft.com/comps#TFT14_Strong-TFT14_Shaco",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
-    "name": "Vanguard, KogMaw",
+    "name": "Vanguard Kog'Maw",
     "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_KogMaw",
     "color": "#4b69ff"
   },
   {
+<<<<<<< HEAD
     "name": "Vanguard, Aphelios",
     "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Aphelios",
     "color": "#4b69ff"
   },
   {
     "name": "BallisTek, Urgot",
+=======
+    "name": "BoomBot Urgot",
+>>>>>>> 999c72b (fix scraping logic to get all titles of comps)
     "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Urgot",
     "color": "#4b69ff"
   },
   {
-    "name": "HotRod, Shyvana",
+    "name": "Vanguard Aphelios",
+    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Aphelios",
+    "color": "#4b69ff"
+  },
+  {
+    "name": "Nitro Shyvana",
     "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Shyvana",
     "color": "#4b69ff"
   },
   {
-    "name": "Techie, Veigar",
+    "name": "Techie Veigar",
     "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Veigar",
     "color": "#4b69ff"
   },
   {
-    "name": "AnimaSquad, Leona",
+    "name": "Anima Squad Leona",
     "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Leona",
     "color": "#4b69ff"
   },
   {
-    "name": "Divinicorp, Zed",
+    "name": "Divinicorp Zed",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Zed",
     "color": "#4b69ff"
   },
   {
-    "name": "Techie, Brand",
+    "name": "Techie Brand",
     "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Brand",
     "color": "#4b69ff"
   },
   {
-    "name": "Techie, DrMundo",
+    "name": "Techie Dr. Mundo",
     "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_DrMundo",
     "color": "#8847ff"
   },
   {
-    "name": "Divinicorp, Vex, Varus",
+    "name": "Divinicorp Vex Varus",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex-TFT14_Varus",
     "color": "#8847ff"
   },
   {
-    "name": "Cyberboss, Veigar",
+    "name": "Cyberboss Veigar",
     "link": "https://www.metatft.com/comps#TFT14_Cyberboss-TFT14_Veigar",
     "color": "#8847ff"
   },
   {
+<<<<<<< HEAD
     "name": "Armorclad, Morgana",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Morgana",
     "color": "#8847ff"
   },
   {
     "name": "Divinicorp, MissFortune",
+=======
+    "name": "Divinicorp Miss Fortune",
+>>>>>>> 999c72b (fix scraping logic to get all titles of comps)
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_MissFortune",
     "color": "#8847ff"
   },
   {
-    "name": "Supercharge, Naafiri",
+    "name": "Bastion Morgana",
+    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Morgana",
+    "color": "#8847ff"
+  },
+  {
+    "name": "A.M.P. Naafiri",
     "link": "https://www.metatft.com/comps#TFT14_Supercharge-TFT14_Naafiri",
     "color": "#8847ff"
   },
   {
+<<<<<<< HEAD
     "name": "Armorclad, Veigar",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
     "color": "#8847ff"
   },
   {
     "name": "Supercharge, Neeko",
+=======
+    "name": "A.M.P. Neeko",
+>>>>>>> 999c72b (fix scraping logic to get all titles of comps)
     "link": "https://www.metatft.com/comps#TFT14_Supercharge-TFT14_Neeko",
     "color": "#8847ff"
   },
   {
-    "name": "Divinicorp, Vex, Senna",
+    "name": "Bastion Veigar",
+    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
+    "color": "#8847ff"
+  },
+  {
+    "name": "Divinicorp Vex Senna",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex-TFT14_Senna",
     "color": "#8847ff"
   },
   {
-    "name": "Thirsty, Shyvana",
+    "name": "Dynamo Shyvana",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_Shyvana",
-    "color": ""
+    "color": "#8847ff"
   },
   {
-    "name": "Suits, Draven",
+    "name": "Cypher Draven",
     "link": "https://www.metatft.com/comps#TFT14_Suits-TFT14_Draven",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "BallisTek, Chogath",
-    "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Chogath",
-    "color": ""
-  },
-  {
-    "name": "Immortal, Aphelios",
+    "name": "Golden Ox Aphelios",
     "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Aphelios",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Divinicorp, Urgot",
+    "name": "BoomBot Cho'Gath",
+    "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Chogath",
+    "color": "#b0c3d9"
+  },
+  {
+    "name": "Divinicorp Urgot",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Urgot",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Cutter, Rengar",
+    "name": "Executioner Rengar",
     "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Divinicorp, Rhaast",
+    "name": "Divinicorp Rhaast",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Rhaast",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Mob, Zeri",
+    "name": "Syndicate Zeri",
     "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_Zeri",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Controller, LeBlanc",
+    "name": "Strategist LeBlanc",
     "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_LeBlanc",
-    "color": ""
+    "color": "#b0c3d9"
   },
   {
-    "name": "Armorclad, Zeri, Draven",
+    "name": "Bastion Zeri Draven",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Zeri-TFT14_Draven",
-    "color": ""
+    "color": "#eb4b4b"
   },
   {
-    "name": "Vanguard, Urgot",
+    "name": "Vanguard Urgot",
     "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Urgot",
-    "color": ""
+    "color": "#eb4b4b"
   },
   {
-    "name": "Immortal, Graves",
+    "name": "Golden Ox Graves",
     "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Graves",
     "color": "#eb4b4b"
   },
   {
-    "name": "StreetDemon, Jinx",
+    "name": "Street Demon Jinx",
     "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Jinx",
     "color": "#eb4b4b"
   },
   {
-    "name": "Bruiser, Zeri",
+    "name": "Bruiser Zeri",
     "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Zeri",
     "color": "#eb4b4b"
   },
   {
-    "name": "Armorclad, Zeri",
+    "name": "Bastion Zeri",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Zeri",
     "color": "#eb4b4b"
   },
   {
-    "name": "Bruiser, Chogath",
+    "name": "Bruiser Cho'Gath",
     "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Chogath",
     "color": "#eb4b4b"
   },
   {
-    "name": "Bruiser, Aphelios",
+    "name": "Bruiser Aphelios",
     "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Aphelios",
     "color": "#eb4b4b"
   },
   {
-    "name": "Cutter, Graves",
+    "name": "Executioner Graves",
     "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Graves",
     "color": "#eb4b4b"
   },
   {
-    "name": "BallisTek, KogMaw",
+    "name": "BoomBot Kog'Maw",
     "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_KogMaw",
     "color": "#eb4b4b"
   }
