@@ -1,4 +1,3 @@
-// Run this script locally to scrape TFT comps and save to static/comps.json
 import { chromium } from 'playwright';
 import * as cheerio from 'cheerio';
 import { writeFileSync } from 'fs';
@@ -28,7 +27,6 @@ import { writeFileSync } from 'fs';
         if (currentCompCount === previousCompCount && scrollAttempts >= 3) break;
         previousCompCount = currentCompCount;
     }
-    await page.waitForLoadState('networkidle', { timeout: 60000 });
     const html = await page.content();
     await browser.close();
 
