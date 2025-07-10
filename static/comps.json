@@ -2,37 +2,37 @@
   {
     "name": "Dynamo Miss Fortune Braum",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Braum",
-    "color": ""
+    "color": "#FFD700"
   },
   {
     "name": "Dynamo Miss Fortune Aurora",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Aurora",
-    "color": ""
+    "color": "#FFD700"
   },
   {
     "name": "Street Demon Brand",
     "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Brand",
-    "color": ""
+    "color": "#FFD700"
   },
   {
     "name": "Exotech Zeri",
     "link": "https://www.metatft.com/comps#TFT14_EdgeRunner-TFT14_Zeri",
-    "color": ""
+    "color": "#FFD700"
   },
   {
     "name": "Strategist Ziggs",
     "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_Ziggs",
-    "color": ""
+    "color": "#FFD700"
   },
   {
     "name": "Divinicorp Graves",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Graves",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
     "name": "Dynamo Miss Fortune",
     "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
-    "color": ""
+    "color": "#4b69ff"
   },
   {
     "name": "Golden Ox Urgot",
@@ -65,16 +65,7 @@
     "color": "#4b69ff"
   },
   {
-<<<<<<< HEAD
-    "name": "Vanguard, Aphelios",
-    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Aphelios",
-    "color": "#4b69ff"
-  },
-  {
-    "name": "BallisTek, Urgot",
-=======
     "name": "BoomBot Urgot",
->>>>>>> 999c72b (fix scraping logic to get all titles of comps)
     "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Urgot",
     "color": "#4b69ff"
   },
@@ -124,22 +115,13 @@
     "color": "#8847ff"
   },
   {
-<<<<<<< HEAD
-    "name": "Armorclad, Morgana",
-    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Morgana",
-    "color": "#8847ff"
-  },
-  {
-    "name": "Divinicorp, MissFortune",
-=======
-    "name": "Divinicorp Miss Fortune",
->>>>>>> 999c72b (fix scraping logic to get all titles of comps)
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_MissFortune",
-    "color": "#8847ff"
-  },
-  {
     "name": "Bastion Morgana",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Morgana",
+    "color": "#8847ff"
+  },
+  {
+    "name": "Divinicorp Miss Fortune",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_MissFortune",
     "color": "#8847ff"
   },
   {
@@ -148,16 +130,7 @@
     "color": "#8847ff"
   },
   {
-<<<<<<< HEAD
-    "name": "Armorclad, Veigar",
-    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
-    "color": "#8847ff"
-  },
-  {
-    "name": "Supercharge, Neeko",
-=======
     "name": "A.M.P. Neeko",
->>>>>>> 999c72b (fix scraping logic to get all titles of comps)
     "link": "https://www.metatft.com/comps#TFT14_Supercharge-TFT14_Neeko",
     "color": "#8847ff"
   },
