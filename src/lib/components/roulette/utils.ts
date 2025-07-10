@@ -1,10 +1,10 @@
-import type { CaseItem } from "./types";
-import { RARITY_COLORS } from "./types";
+import type { CaseItem } from './types';
+import { RARITY_COLORS } from './types';
 
 export function generateRouletteItems(
 	items: CaseItem[],
 	duration: number,
-	itemsInView: number,
+	itemsInView: number
 ): CaseItem[] {
 	if (!items || items.length === 0) {
 		return [];
@@ -41,5 +41,5 @@ export function selectWeightedRandomItem(items: CaseItem[]): CaseItem | null {
 }
 
 export function getItemColor(item: CaseItem): string {
-	return RARITY_COLORS[item.rarity] || "#b0c3d9"; // Default to Consumer color
+	return RARITY_COLORS[item.rarity] || '#b0c3d9'; // Default to Consumer color
 }
