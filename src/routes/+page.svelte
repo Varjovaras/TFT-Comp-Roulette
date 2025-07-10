@@ -17,13 +17,12 @@
 
   onMount(async () => {
     try {
-      const response = await fetch('/api/scrape');
+      // Use static JSON in production
+      const response = await fetch('/comps.json');
       const result = await response.json();
 
-      if (result.success) {
-        console.log('Scraped Comps for Roulette:', result.data); // Log the scraped data for verification
-        // Process scraped data into CompCaseItem format
-        rouletteItems = result.data.map((comp: { name: string; link: string; color?: string }) => ({
+      if (result) {
+        rouletteItems = result.map((comp: { name: string; link: string; color?: string }) => ({
           name: comp.name,
           rarity: 'Consumer', // Default rarity, adjust as needed
           weight: 100, // Default weight, adjust as needed
@@ -33,7 +32,7 @@
           id: comp.link, // Use link as unique id
         }));
       } else {
-        error = result.message;
+        error = 'No comps found in comps.json';
       }
     } catch (e: any) {
       error = e.message;
