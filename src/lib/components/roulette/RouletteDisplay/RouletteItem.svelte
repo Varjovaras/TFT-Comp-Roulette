@@ -1,40 +1,53 @@
 <script lang="ts">
-  import type { CaseItem } from '../types';
-  import { getItemColor } from '../utils';
+	import type { CaseItem } from '../types';
+	import { getItemColor } from '../utils';
 
-  export let item: CaseItem;
-  export let width: number = 140;
-  export let isWinner: boolean = false;
+	export let item: CaseItem;
+	export let width: number = 140;
+	export let isWinner: boolean = false;
+	export let itemColor: string = '';
 
-  $: rarityColor = getItemColor(item);
+	$: rarityColor = itemColor || getItemColor(item);
 </script>
 
 <div
-  class="flex-shrink-0 h-48 bg-gray-800 border-2 rounded-md mx-1 p-1.5 box-border flex flex-col relative transition-transform duration-300 ease-in-out shadow-lg"
-  class:winner="{isWinner}"
-  style="width: {width}px; height: {width}px; --rarity-color: {rarityColor}; border-color: {rarityColor};"
+	class="relative mx-1 box-border flex h-48 flex-shrink-0 flex-col rounded-md border-2 bg-gray-800 p-1.5 shadow-lg transition-transform duration-300 ease-in-out"
+	class:winner={isWinner}
+	style="width: {width}px; height: {width}px; --rarity-color: {rarityColor}; border-color: {rarityColor};"
 >
-  <div class="absolute top-0 left-0 w-full h-1" style="background-color: {rarityColor};"></div>
-  <div class="flex flex-col justify-between h-full">
-    <div class="flex-1 flex items-center justify-center p-1.5 bg-gray-900 rounded-sm overflow-hidden relative">
-      {#if item.image}
-        <img src={item.image} alt={item.name} class="max-w-full max-h-full w-auto h-auto object-contain" />
-      {:else}
-        <span class="flex items-center justify-center h-full w-full text-center text-white font-bold text-sm">{item.name}</span>
-      {/if}
-    </div>
-    <div class="p-2 text-center">
-      <div class="text-xs font-bold text-white mb-1 whitespace-nowrap overflow-hidden text-ellipsis" title={item.name}>
-        {item.name}
-      </div>
-    </div>
-  </div>
+	<div class="absolute top-0 left-0 h-1 w-full" style="background-color: {rarityColor};"></div>
+	<div class="flex h-full flex-col justify-between">
+		<div
+			class="relative flex flex-1 items-center justify-center overflow-hidden rounded-sm bg-gray-900 p-1.5"
+		>
+			{#if item.image}
+				<img
+					src={item.image}
+					alt={item.name}
+					class="h-auto max-h-full w-auto max-w-full object-contain"
+				/>
+			{:else}
+				<span
+					class="flex h-full w-full items-center justify-center text-center text-sm font-bold text-white"
+					>{item.name}</span
+				>
+			{/if}
+		</div>
+		<div class="p-2 text-center">
+			<div
+				class="mb-1 overflow-hidden text-xs font-bold text-ellipsis whitespace-nowrap text-white"
+				title={item.name}
+			>
+				{item.name}
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
-  .winner {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px var(--rarity-color, #b0c3d9);
-    z-index: 5;
-  }
+	.winner {
+		transform: scale(1.05);
+		box-shadow: 0 0 20px var(--rarity-color, #b0c3d9);
+		z-index: 5;
+	}
 </style>

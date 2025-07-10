@@ -24,7 +24,7 @@
     style="left: -{spinOffset}px; --spin-duration: {isSpinning ? `var(--spin-duration)` : '0s'};"
   >
     {#each rouletteItems as item (item.id)}
-      <RouletteItem {item} width={itemWidth} />
+      <RouletteItem {item} width={itemWidth} itemColor={item.color?} />
     {/each}
   </div>
 </div>

@@ -3,7 +3,7 @@
   import type { CaseItem } from './types';
   import { generateRouletteItems, selectWeightedRandomItem } from './utils';
   import RouletteDisplay from './RouletteDisplay/RouletteDisplay.svelte';
-  import { browser } from '$app/environment'; // Import browser
+  import { browser } from '$app/environment';
 
   export let items: CaseItem[] = [];
   export let onItemWon: (item: CaseItem) => void = () => {};
@@ -21,7 +21,7 @@
   $: actualItemSpace = itemWidthSignal + itemMarginHorizontal * 2;
 
   let isSpinning = false;
-  let rouletteItems: CaseItem[] = []; // Initialize as empty on server
+  let rouletteItems: CaseItem[] = [];
   let spinOffset = 0;
   let winningItem: CaseItem | null = null;
   let trackRef: HTMLDivElement;
@@ -29,20 +29,20 @@
   $: itemsToSpin = items;
   $: currentSpinDuration = internalSpinDuration;
 
-  onMount(() => {
-    const updateDimensions = () => {
-      if (window.innerWidth <= 480) {
-        itemWidthSignal = 100;
-        itemsInViewSignal = 3;
-      } else if (window.innerWidth <= 768) {
-        itemWidthSignal = 120;
-        itemsInViewSignal = 4;
-      } else {
-        itemWidthSignal = itemWidth;
-        itemsInViewSignal = itemsInView;
-      }
-    };
+  function updateDimensions() {
+    if (window.innerWidth <= 480) {
+      itemWidthSignal = 100;
+      itemsInViewSignal = 3;
+    } else if (window.innerWidth <= 768) {
+      itemWidthSignal = 120;
+      itemsInViewSignal = 4;
+    } else {
+      itemWidthSignal = itemWidth;
+      itemsInViewSignal = itemsInView;
+    }
+  }
 
+  onMount(() => {
     updateDimensions();
     window.addEventListener('resize', updateDimensions);
 
@@ -148,3 +148,4 @@
     {isSpinButtonDisabled}
   />
 </div>
+

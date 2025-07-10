@@ -3,9 +3,9 @@
   import CaseRoulette from '../lib/components/roulette/CaseRoulette.svelte';
   import type { CaseItem } from '../lib/components/roulette/types';
 
-  // Extend CaseItem to include a link
   interface CompCaseItem extends CaseItem {
     link: string;
+    color?: string;
   }
 
   let rouletteItems: CompCaseItem[] = [];
@@ -23,12 +23,14 @@
       if (result.success) {
         console.log('Scraped Comps for Roulette:', result.data); // Log the scraped data for verification
         // Process scraped data into CompCaseItem format
-        rouletteItems = result.data.map((comp: { name: string; link: string }) => ({
+        rouletteItems = result.data.map((comp: { name: string; link: string; color?: string }) => ({
           name: comp.name,
           rarity: 'Consumer', // Default rarity, adjust as needed
           weight: 100, // Default weight, adjust as needed
-          image: `https://via.placeholder.com/100x100/CCCCCC/000000?text=${comp.name.substring(0, 1)}`, // Placeholder image
+          image: `https://via.placeholder.com/100x100/CCCCCC/000000?text=${comp.name.substring(0, 1)}`,
           link: comp.link,
+          color: comp.color,
+          id: comp.link, // Use link as unique id
         }));
       } else {
         error = result.message;
@@ -41,7 +43,7 @@
   });
 
   function handleItemWon(item: CaseItem) {
-    winningComp = item as CompCaseItem; // Cast to CompCaseItem
+    winningComp = item as CompCaseItem;
     showWinningModal = true;
   }
 
