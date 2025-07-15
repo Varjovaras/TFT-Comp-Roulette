@@ -35,13 +35,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Divinicorp Vex",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex",
+    "name": "Golden Ox Urgot",
+    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Urgot",
     "color": "#4b69ff"
   },
   {
-    "name": "Golden Ox Urgot",
-    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Urgot",
+    "name": "Divinicorp Vex",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex",
     "color": "#4b69ff"
   },
   {
@@ -50,13 +50,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Slayer Shaco",
-    "link": "https://www.metatft.com/comps#TFT14_Strong-TFT14_Shaco",
+    "name": "Syndicate Twisted Fate",
+    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate",
     "color": "#4b69ff"
   },
   {
-    "name": "Syndicate Twisted Fate",
-    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate",
+    "name": "Slayer Shaco",
+    "link": "https://www.metatft.com/comps#TFT14_Strong-TFT14_Shaco",
     "color": "#4b69ff"
   },
   {
@@ -75,8 +75,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Vanguard Kog'Maw",
-    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_KogMaw",
+    "name": "Anima Squad Leona",
+    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Leona",
+    "color": "#4b69ff"
+  },
+  {
+    "name": "Techie Veigar",
+    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Veigar",
     "color": "#4b69ff"
   },
   {
@@ -85,13 +90,8 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Anima Squad Leona",
-    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Leona",
-    "color": "#4b69ff"
-  },
-  {
-    "name": "Techie Veigar",
-    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Veigar",
+    "name": "Vanguard Kog'Maw",
+    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_KogMaw",
     "color": "#4b69ff"
   },
   {
@@ -150,13 +150,13 @@
     "color": "#8847ff"
   },
   {
-    "name": "BoomBot Cho'Gath",
-    "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Chogath",
+    "name": "Golden Ox Aphelios",
+    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Aphelios",
     "color": "#b0c3d9"
   },
   {
-    "name": "Golden Ox Aphelios",
-    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Aphelios",
+    "name": "Executioner Rengar",
+    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
     "color": "#b0c3d9"
   },
   {
@@ -165,8 +165,8 @@
     "color": "#b0c3d9"
   },
   {
-    "name": "Executioner Rengar",
-    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
+    "name": "BoomBot Cho'Gath",
+    "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Chogath",
     "color": "#b0c3d9"
   },
   {
@@ -182,7 +182,7 @@
   {
     "name": "Strategist LeBlanc",
     "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_LeBlanc",
-    "color": "#b0c3d9"
+    "color": "#eb4b4b"
   },
   {
     "name": "Bastion Zeri",
@@ -190,13 +190,13 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Vanguard Urgot",
-    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Urgot",
+    "name": "Golden Ox Graves",
+    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Graves",
     "color": "#eb4b4b"
   },
   {
-    "name": "Golden Ox Graves",
-    "link": "https://www.metatft.com/comps#TFT14_Immortal-TFT14_Graves",
+    "name": "Vanguard Urgot",
+    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Urgot",
     "color": "#eb4b4b"
   },
   {
@@ -210,13 +210,13 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Bastion Sejuani",
-    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Sejuani",
+    "name": "Bruiser Cho'Gath",
+    "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Chogath",
     "color": "#eb4b4b"
   },
   {
-    "name": "Bruiser Cho'Gath",
-    "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Chogath",
+    "name": "Bastion Sejuani",
+    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Sejuani",
     "color": "#eb4b4b"
   },
   {
@@ -225,8 +225,8 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Executioner Rengar Graves",
-    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar-TFT14_Graves",
+    "name": "Executioner Graves",
+    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Graves",
     "color": "#eb4b4b"
   },
   {
