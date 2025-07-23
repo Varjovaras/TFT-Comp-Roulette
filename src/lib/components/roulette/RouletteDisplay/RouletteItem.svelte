@@ -3,9 +3,9 @@
 	import { getItemColor } from '../utils';
 
 	export let item: CaseItem;
-	export let width: number = 140;
-	export let isWinner: boolean = false;
-	export let itemColor: string = '';
+	export const width: number = 140;
+	export const isWinner: boolean = false;
+	export const itemColor: string = '';
 
 	$: rarityColor = itemColor || getItemColor(item);
 </script>
