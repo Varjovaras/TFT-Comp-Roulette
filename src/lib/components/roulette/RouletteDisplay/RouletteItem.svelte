@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="relative mx-1 box-border flex h-48 flex-shrink-0 flex-col rounded-md border-2 bg-gray-800 p-1.5 shadow-lg transition-transform duration-300 ease-in-out"
+	class="relative mx-1 box-border flex h-48 flex-shrink-0 flex-col rounded-xl border-2 bg-gray-800/80 p-1.5 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:z-10"
 	class:winner={isWinner}
 	style="width: {width}px; height: {width}px; --rarity-color: {rarityColor}; border-color: {rarityColor};"
 >

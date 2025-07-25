@@ -14,13 +14,13 @@
 
 <div class="relative h-48 w-full overflow-hidden rounded-md shadow-inner">
 	<div
-		class="pointer-events-none absolute top-0 left-1/2 z-10 h-full w-1 -translate-x-1/2 transform bg-red-500"
+		class="pointer-events-none absolute top-0 left-1/2 z-10 h-full w-1 -translate-x-1/2 transform bg-gradient-to-b from-blue-400 via-blue-600 to-blue-900 shadow-lg animate-pulse"
 	>
 		<div
-			class="absolute top-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-t-8 border-solid border-transparent border-t-red-500"
+			class="absolute top-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-t-8 border-solid border-transparent border-t-blue-400 animate-bounce"
 		></div>
 		<div
-			class="absolute bottom-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-b-8 border-solid border-transparent border-b-red-500"
+			class="absolute bottom-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-b-8 border-solid border-transparent border-b-blue-700 animate-bounce"
 		></div>
 	</div>
 	<div

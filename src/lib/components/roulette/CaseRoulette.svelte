@@ -137,7 +137,7 @@
 </script>
 
 <div
-	class="relative mx-auto w-full max-w-3xl overflow-hidden rounded-lg bg-gray-700 p-5 shadow-lg {customClassName}"
+	class="relative mx-auto w-full max-w-3xl overflow-hidden rounded-2xl bg-gradient-to-br from-[#1b263b] via-[#274472] to-[#212f45] p-8 shadow-2xl backdrop-blur-lg ring-2 ring-[#f7d774]/60 {customClassName}"
 >
 	<RouletteDisplay
 		{isSpinning}
