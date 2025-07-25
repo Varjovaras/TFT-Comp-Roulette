@@ -20,10 +20,13 @@ function gotoNav(href: string) {
 }
 </script>
 
-<nav class="flex justify-center items-center gap-6 py-4 bg-gradient-to-r from-[#f7d774]/80 via-[#274472]/80 to-[#1b263b]/80 shadow-lg ring-1 ring-[#f7d774]/30 mb-6 rounded-b-2xl">
-	<div class="flex items-center gap-2 mr-8 select-none">
-		<img src="/favicon.svg" alt="TFT" class="h-8 w-8" />
-		<span class="text-2xl font-extrabold tracking-widest text-[#f7d774] drop-shadow">TFTroll</span>
+<nav class="relative flex justify-center items-center gap-6 py-4 min-h-[5rem] bg-gradient-to-r from-[#f7d774]/80 via-[#274472]/80 to-[#1b263b]/80 shadow-lg ring-1 ring-[#f7d774]/30 mb-6 rounded-b-2xl overflow-visible">
+	<div class="flex items-center gap-2 mr-8 select-none relative">
+		<!-- tf.svg needs fixing in the future by making a better svg file -->
+		<img src="/tf.svg" alt="TFT" class="h-32 w-32 absolute -top-11 left-0 transform scale-125 z-10" />
+		<a href="/" class="text-2xl font-extrabold tracking-widest text-[#f7d774] drop-shadow ml-36 hover:underline focus:underline outline-none">
+			TFTroll
+		</a>
 	</div>
 	{#each navItems as item}
 		<button
