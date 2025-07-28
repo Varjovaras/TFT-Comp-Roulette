@@ -5,8 +5,8 @@
     "color": "#FFD700"
   },
   {
-    "name": "Street Demon Brand",
-    "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Brand",
+    "name": "Dynamo Miss Fortune",
+    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
     "color": "#FFD700"
   },
   {
@@ -15,8 +15,8 @@
     "color": "#FFD700"
   },
   {
-    "name": "Nitro Shyvana",
-    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Shyvana",
+    "name": "Street Demon Brand",
+    "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Brand",
     "color": "#FFD700"
   },
   {
@@ -25,8 +25,8 @@
     "color": "#FFD700"
   },
   {
-    "name": "Dynamo Miss Fortune",
-    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
+    "name": "Nitro Shyvana",
+    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Shyvana",
     "color": "#FFD700"
   },
   {
@@ -35,13 +35,13 @@
     "color": "#FFD700"
   },
   {
-    "name": "Divinicorp Vex",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex",
+    "name": "Syndicate Twisted Fate",
+    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate",
     "color": "#4b69ff"
   },
   {
-    "name": "Syndicate Twisted Fate",
-    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate",
+    "name": "Divinicorp Vex",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex",
     "color": "#4b69ff"
   },
   {
@@ -65,13 +65,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Divinicorp Varus",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Varus",
+    "name": "Techie Dr. Mundo",
+    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_DrMundo",
     "color": "#4b69ff"
   },
   {
-    "name": "Techie Dr. Mundo",
-    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_DrMundo",
+    "name": "Divinicorp Varus",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Varus",
     "color": "#4b69ff"
   },
   {
@@ -85,18 +85,8 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Techie Brand",
-    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Brand",
-    "color": "#4b69ff"
-  },
-  {
     "name": "BoomBot Urgot",
     "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Urgot",
-    "color": "#4b69ff"
-  },
-  {
-    "name": "Nitro Veigar",
-    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Veigar",
     "color": "#4b69ff"
   },
   {
@@ -105,14 +95,24 @@
     "color": "#4b69ff"
   },
   {
+    "name": "Nitro Veigar",
+    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Veigar",
+    "color": "#4b69ff"
+  },
+  {
     "name": "Divinicorp Zed",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Zed",
     "color": "#4b69ff"
   },
   {
+    "name": "Techie Brand",
+    "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Brand",
+    "color": "#4b69ff"
+  },
+  {
     "name": "Techie Veigar",
     "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Veigar",
-    "color": "#4b69ff"
+    "color": "#8847ff"
   },
   {
     "name": "Dynamo Shyvana",
@@ -130,11 +130,6 @@
     "color": "#8847ff"
   },
   {
-    "name": "Executioner Rengar",
-    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
-    "color": "#8847ff"
-  },
-  {
     "name": "Divinicorp Urgot",
     "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Urgot",
     "color": "#8847ff"
@@ -145,13 +140,18 @@
     "color": "#8847ff"
   },
   {
+    "name": "Divinicorp Vex Senna",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex-TFT14_Senna",
+    "color": "#8847ff"
+  },
+  {
     "name": "Bastion Veigar",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
     "color": "#8847ff"
   },
   {
-    "name": "Divinicorp Vex Senna",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Vex-TFT14_Senna",
+    "name": "Executioner Rengar",
+    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
     "color": "#8847ff"
   },
   {
@@ -187,7 +187,7 @@
   {
     "name": "Strategist LeBlanc",
     "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_LeBlanc",
-    "color": "#b0c3d9"
+    "color": "#eb4b4b"
   },
   {
     "name": "Street Demon Jinx",
@@ -225,13 +225,13 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Executioner Graves",
-    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Graves",
+    "name": "Bruiser Aphelios",
+    "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Aphelios",
     "color": "#eb4b4b"
   },
   {
-    "name": "Bruiser Aphelios",
-    "link": "https://www.metatft.com/comps#TFT14_Bruiser-TFT14_Aphelios",
+    "name": "Executioner Graves",
+    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Graves",
     "color": "#eb4b4b"
   },
   {
