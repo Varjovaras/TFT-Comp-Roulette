@@ -5,13 +5,13 @@
     "color": "#FFD700"
   },
   {
-    "name": "Dynamo Miss Fortune",
-    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
+    "name": "Dynamo Miss Fortune Aurora",
+    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Aurora",
     "color": "#FFD700"
   },
   {
-    "name": "Dynamo Miss Fortune Aurora",
-    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune-TFT14_Aurora",
+    "name": "Dynamo Miss Fortune",
+    "link": "https://www.metatft.com/comps#TFT14_Thirsty-TFT14_MissFortune",
     "color": "#FFD700"
   },
   {
@@ -25,13 +25,13 @@
     "color": "#FFD700"
   },
   {
-    "name": "Nitro Shyvana",
-    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Shyvana",
+    "name": "Exotech Zeri",
+    "link": "https://www.metatft.com/comps#TFT14_EdgeRunner-TFT14_Zeri",
     "color": "#FFD700"
   },
   {
-    "name": "Exotech Zeri",
-    "link": "https://www.metatft.com/comps#TFT14_EdgeRunner-TFT14_Zeri",
+    "name": "Nitro Shyvana",
+    "link": "https://www.metatft.com/comps#TFT14_HotRod-TFT14_Shyvana",
     "color": "#FFD700"
   },
   {
@@ -55,13 +55,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Slayer Shaco",
-    "link": "https://www.metatft.com/comps#TFT14_Strong-TFT14_Shaco",
+    "name": "Anima Squad Xayah",
+    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Xayah",
     "color": "#4b69ff"
   },
   {
-    "name": "Anima Squad Xayah",
-    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Xayah",
+    "name": "Slayer Shaco",
+    "link": "https://www.metatft.com/comps#TFT14_Strong-TFT14_Shaco",
     "color": "#4b69ff"
   },
   {
@@ -80,18 +80,8 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Anima Squad Leona",
-    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Leona",
-    "color": "#4b69ff"
-  },
-  {
     "name": "BoomBot Urgot",
     "link": "https://www.metatft.com/comps#TFT14_BallisTek-TFT14_Urgot",
-    "color": "#4b69ff"
-  },
-  {
-    "name": "Vanguard Kog'Maw",
-    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_KogMaw",
     "color": "#4b69ff"
   },
   {
@@ -100,13 +90,23 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Divinicorp Zed",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Zed",
+    "name": "Anima Squad Leona",
+    "link": "https://www.metatft.com/comps#TFT14_AnimaSquad-TFT14_Leona",
+    "color": "#4b69ff"
+  },
+  {
+    "name": "Vanguard Kog'Maw",
+    "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_KogMaw",
     "color": "#4b69ff"
   },
   {
     "name": "Techie Brand",
     "link": "https://www.metatft.com/comps#TFT14_Techie-TFT14_Brand",
+    "color": "#4b69ff"
+  },
+  {
+    "name": "Divinicorp Zed",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Zed",
     "color": "#4b69ff"
   },
   {
@@ -130,11 +130,6 @@
     "color": "#8847ff"
   },
   {
-    "name": "Divinicorp Urgot",
-    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Urgot",
-    "color": "#8847ff"
-  },
-  {
     "name": "Bastion Morgana",
     "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Morgana",
     "color": "#8847ff"
@@ -145,13 +140,8 @@
     "color": "#8847ff"
   },
   {
-    "name": "Bastion Veigar",
-    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
-    "color": "#8847ff"
-  },
-  {
-    "name": "Executioner Rengar",
-    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
+    "name": "Divinicorp Urgot",
+    "link": "https://www.metatft.com/comps#TFT14_Divinicorp-TFT14_Urgot",
     "color": "#8847ff"
   },
   {
@@ -160,8 +150,18 @@
     "color": "#8847ff"
   },
   {
-    "name": "Syndicate Zeri",
-    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_Zeri",
+    "name": "Syndicate Twisted Fate Zeri",
+    "link": "https://www.metatft.com/comps#TFT14_Mob-TFT14_TwistedFate-TFT14_Zeri",
+    "color": "#8847ff"
+  },
+  {
+    "name": "Executioner Rengar",
+    "link": "https://www.metatft.com/comps#TFT14_Cutter-TFT14_Rengar",
+    "color": "#8847ff"
+  },
+  {
+    "name": "Bastion Veigar",
+    "link": "https://www.metatft.com/comps#TFT14_Armorclad-TFT14_Veigar",
     "color": "#8847ff"
   },
   {
@@ -190,18 +190,13 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Street Demon Jinx",
-    "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Jinx",
-    "color": "#eb4b4b"
-  },
-  {
     "name": "Vanguard Urgot",
     "link": "https://www.metatft.com/comps#TFT14_Vanguard-TFT14_Urgot",
     "color": "#eb4b4b"
   },
   {
-    "name": "Strategist LeBlanc Ekko",
-    "link": "https://www.metatft.com/comps#TFT14_Controller-TFT14_LeBlanc-TFT14_Ekko",
+    "name": "Street Demon Jinx",
+    "link": "https://www.metatft.com/comps#TFT14_StreetDemon-TFT14_Jinx",
     "color": "#eb4b4b"
   },
   {
