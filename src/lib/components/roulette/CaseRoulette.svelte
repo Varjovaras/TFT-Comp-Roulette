@@ -61,7 +61,7 @@
 	// Reactive block to generate/re-generate roulette items only on client
 	// This will run on initial mount (when `browser` is true) and whenever `itemsToSpin` changes
 	$: if (browser && itemsToSpin) {
-		rouletteItems = generateRouletteItems(itemsToSpin, spinDuration, itemsInViewSignal);
+		rouletteItems = generateRouletteItems(itemsToSpin, spinDuration);
 	}
 
 	// This reactive block will only run in the browser after trackRef is bound

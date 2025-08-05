@@ -22,14 +22,18 @@ export function selectWeightedRandomItem(items: Item[]): Item | null {
 		return null;
 	}
 
-	const totalWeight = items.reduce((sum, item) => sum + item.weight, 0);
+	const totalWeight = items.reduce((sum, item) => {
+		const weight = typeof item.weight === 'number' ? item.weight : Number(item.weight) || 0;
+		return sum + weight;
+	}, 0);
 	let randomNum = Math.random() * totalWeight;
 
 	for (const item of items) {
-		if (randomNum < item.weight) {
+		const weight = typeof item.weight === 'number' ? item.weight : Number(item.weight) || 0;
+		if (randomNum < weight) {
 			return item;
 		}
-		randomNum -= item.weight;
+		randomNum -= weight;
 	}
 
 	// Fallback in case of floating point inaccuracies, return a random item
@@ -37,5 +41,21 @@ export function selectWeightedRandomItem(items: Item[]): Item | null {
 }
 
 export function getItemColor(item: Item): string {
-	return RARITY_COLORS[item.rarity] || '#b0c3d9'; // Default to Consumer color
+	// Prefer item.color from scraped data, fallback to RARITY_COLORS by tier
+	const tier = typeof item.tier === 'string' ? item.tier : '';
+	if (typeof item.color === 'string' && item.color) return item.color;
+	switch (tier) {
+		case 'S':
+			return RARITY_COLORS.S;
+		case 'A':
+			return RARITY_COLORS.A;
+		case 'B':
+			return RARITY_COLORS.B;
+		case 'C':
+			return RARITY_COLORS.C;
+		case 'D':
+			return RARITY_COLORS.D;
+		default:
+			return '#b0c3d9';
+	}
 }

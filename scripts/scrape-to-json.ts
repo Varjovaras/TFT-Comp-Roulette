@@ -86,7 +86,13 @@ import { writeFileSync } from 'fs';
 
 		await page.waitForTimeout(3000);
 
-		const scrapedComps: { name: string; link: string; color: string; teamCode: string }[] = [];
+		const scrapedComps: {
+			name: string;
+			link: string;
+			color: string;
+			teamCode: string;
+			tier: string;
+		}[] = [];
 		const compRows = await page.$$('.CompRow');
 
 		for (const rowHandle of compRows) {
@@ -106,9 +112,10 @@ import { writeFileSync } from 'fs';
 			}
 
 			let color = '';
+			let tier = '';
 			const badge = await rowHandle.$('.CompRowTierBadge');
 			if (badge) {
-				const tier = (await badge.textContent())?.trim() || '';
+				tier = (await badge.textContent())?.trim() || '';
 				if (tier === 'S') color = '#FFD700';
 				else if (tier === 'A') color = '#4b69ff';
 				else if (tier === 'B') color = '#8847ff';
@@ -125,7 +132,7 @@ import { writeFileSync } from 'fs';
 			}
 
 			if (name.trim() && link) {
-				scrapedComps.push({ name: name.trim(), link, color, teamCode });
+				scrapedComps.push({ name: name.trim(), link, color, teamCode, tier });
 			}
 		}
 		writeFileSync('static/comps.json', JSON.stringify(scrapedComps, null, 2));
