@@ -1,12 +1,12 @@
 [
   {
-    "name": "Bastion Leona",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Leona",
+    "name": "Sorcerer Karma",
+    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma",
     "color": "#FFD700"
   },
   {
-    "name": "Sorcerer Karma",
-    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma",
+    "name": "Bastion Leona",
+    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Leona",
     "color": "#FFD700"
   },
   {
@@ -17,16 +17,11 @@
   {
     "name": "Duelist Ashe",
     "link": "https://www.metatft.com/comps#TFT15_Duelist-TFT15_Ashe",
-    "color": "#4b69ff"
+    "color": "#FFD700"
   },
   {
     "name": "Wraith Kayle",
     "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_Kayle",
-    "color": "#4b69ff"
-  },
-  {
-    "name": "Protector Kennen",
-    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Kennen",
     "color": "#4b69ff"
   },
   {
@@ -40,6 +35,11 @@
     "color": "#4b69ff"
   },
   {
+    "name": "Protector Kennen",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Kennen",
+    "color": "#4b69ff"
+  },
+  {
     "name": "Duelist Ashe Udyr",
     "link": "https://www.metatft.com/comps#TFT15_Duelist-TFT15_Ashe-TFT15_Udyr",
     "color": "#4b69ff"
@@ -50,13 +50,13 @@
     "color": "#4b69ff"
   },
   {
-    "name": "Crystal Gambit Ashe",
-    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe",
+    "name": "Sniper Dr. Mundo",
+    "link": "https://www.metatft.com/comps#TFT15_Sniper-TFT15_DrMundo",
     "color": "#4b69ff"
   },
   {
-    "name": "Sniper Dr. Mundo",
-    "link": "https://www.metatft.com/comps#TFT15_Sniper-TFT15_DrMundo",
+    "name": "Crystal Gambit Ashe",
+    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe",
     "color": "#4b69ff"
   },
   {
@@ -77,7 +77,7 @@
   {
     "name": "Heavyweight Zac",
     "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Zac",
-    "color": "#8847ff"
+    "color": "#4b69ff"
   },
   {
     "name": "Mentor Ryze",
@@ -90,13 +90,13 @@
     "color": "#8847ff"
   },
   {
-    "name": "Star Guardian Jinx",
-    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx",
+    "name": "Wraith K'Sante",
+    "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_KSante",
     "color": "#8847ff"
   },
   {
-    "name": "Wraith K'Sante",
-    "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_KSante",
+    "name": "Star Guardian Jinx",
+    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx",
     "color": "#8847ff"
   },
   {
@@ -120,18 +120,13 @@
     "color": "#b0c3d9"
   },
   {
-    "name": "Heavyweight Darius",
-    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius",
-    "color": "#b0c3d9"
-  },
-  {
     "name": "Sorcerer Karma Swain",
     "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma-TFT15_Swain",
     "color": "#b0c3d9"
   },
   {
-    "name": "Sniper Jinx",
-    "link": "https://www.metatft.com/comps#TFT15_Sniper-TFT15_Jinx",
+    "name": "Heavyweight Darius",
+    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius",
     "color": "#b0c3d9"
   },
   {
@@ -140,18 +135,23 @@
     "color": "#b0c3d9"
   },
   {
-    "name": "Executioner Akali",
-    "link": "https://www.metatft.com/comps#TFT15_Destroyer-TFT15_Akali",
+    "name": "Sniper Jinx",
+    "link": "https://www.metatft.com/comps#TFT15_Sniper-TFT15_Jinx",
     "color": "#b0c3d9"
   },
   {
     "name": "Protector Kog'Maw",
     "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_KogMaw",
-    "color": "#eb4b4b"
+    "color": "#b0c3d9"
   },
   {
     "name": "Prodigy Malzahar",
     "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Malzahar",
+    "color": "#eb4b4b"
+  },
+  {
+    "name": "Executioner Akali",
+    "link": "https://www.metatft.com/comps#TFT15_Destroyer-TFT15_Akali",
     "color": "#eb4b4b"
   },
   {
@@ -180,13 +180,13 @@
     "color": "#eb4b4b"
   },
   {
-    "name": "Crystal Gambit Ashe Swain",
-    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe-TFT15_Swain",
+    "name": "Xayah",
+    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Xayah",
     "color": "#eb4b4b"
   },
   {
-    "name": "Xayah",
-    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Xayah",
+    "name": "Crystal Gambit Ashe Swain",
+    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe-TFT15_Swain",
     "color": "#eb4b4b"
   },
   {
