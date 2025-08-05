@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { CaseItem } from '../types';
+	import type { Item } from '../types';
 	import RouletteItem from './RouletteItem.svelte';
 	import SpinButton from './SpinButton.svelte';
 
 	export let isSpinning: boolean;
 	export let spinOffset: number;
-	export let rouletteItems: CaseItem[];
+	export let rouletteItems: Item[];
 	export let itemWidth: number;
 	export let trackRef: HTMLDivElement;
 	export let onSpinClick: () => void;

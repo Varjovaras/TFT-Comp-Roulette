@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { CaseItem } from '../types';
+	import type { Item } from '../types';
 	import { getItemColor } from '../utils';
 
-	export let item: CaseItem;
+	export let item: Item;
 	export const width: number = 140;
 	export const isWinner: boolean = false;
 	export const itemColor: string = '';
@@ -21,11 +21,11 @@
 			class="relative flex flex-1 items-center justify-center overflow-hidden rounded-sm bg-gray-900 p-1.5"
 		>
 			{#if item.image}
-				<img
+				<!-- <img
 					src={item.image}
 					alt={item.name}
 					class="h-auto max-h-full w-auto max-w-full object-contain"
-				/>
+				/> -->
 			{:else}
 				<span
 					class="flex h-full w-full items-center justify-center text-center text-sm font-bold text-white"
