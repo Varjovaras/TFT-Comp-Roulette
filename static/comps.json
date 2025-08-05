@@ -1,15 +1,15 @@
 [
   {
-    "name": "Sorcerer Karma",
-    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma",
-    "color": "#FFD700",
-    "teamCode": "0201900116d16b01e18c16c17b176017TFTSet15"
-  },
-  {
     "name": "Bastion Leona",
     "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Leona",
     "color": "#FFD700",
     "teamCode": "0217900d18819916318c192193185000TFTSet15"
+  },
+  {
+    "name": "Sorcerer Karma",
+    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma",
+    "color": "#FFD700",
+    "teamCode": "0201900116d16b01e18c16c17b176017TFTSet15"
   },
   {
     "name": "Battle Academia Katarina",
@@ -30,22 +30,22 @@
     "teamCode": "0217519717119017e18e16f15a000000TFTSet15"
   },
   {
+    "name": "Protector Kennen",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Kennen",
+    "color": "#4b69ff",
+    "teamCode": "0217617115c18416601d16c17d000000TFTSet15"
+  },
+  {
     "name": "Prodigy Yuumi",
     "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Yuumi",
     "color": "#4b69ff",
-    "teamCode": "0219617917e18917118416816a18d000TFTSet15"
+    "teamCode": "0217617115c18416601d16c17d000000TFTSet15"
   },
   {
     "name": "Strategist Yone",
     "link": "https://www.metatft.com/comps#TFT15_Strategist-TFT15_Yone",
     "color": "#4b69ff",
-    "teamCode": "0219617917e18917118416816a18d000TFTSet15"
-  },
-  {
-    "name": "Protector Kennen",
-    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Kennen",
-    "color": "#4b69ff",
-    "teamCode": "0219617917e18917118416816a18d000TFTSet15"
+    "teamCode": "0217617115c18416601d16c17d000000TFTSet15"
   },
   {
     "name": "Duelist Ashe Udyr",
@@ -92,7 +92,7 @@
   {
     "name": "Heavyweight Zac",
     "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Zac",
-    "color": "#4b69ff",
+    "color": "#8847ff",
     "teamCode": "0215e18a01e16318e01401a15a180000TFTSet15"
   },
   {
