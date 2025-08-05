@@ -29,7 +29,7 @@ import { writeFileSync } from 'fs';
 				console.log(`Clicked consent button with selector: ${selector}`);
 				await page.waitForTimeout(1000); // Wait for the dialog to disappear
 				break; // Exit loop if a button is successfully clicked
-			} catch (e) {
+			} catch {
 				// Ignore errors if the button is not found
 			}
 		}

@@ -15,7 +15,6 @@
 
 	let itemWidthSignal = itemWidth;
 	let itemsInViewSignal = itemsInView;
-	let internalSpinDuration = spinDuration;
 
 	const itemMarginHorizontal = 4;
 	$: actualItemSpace = itemWidthSignal + itemMarginHorizontal * 2;
@@ -23,11 +22,9 @@
 	let isSpinning = false;
 	let rouletteItems: Item[] = [];
 	let spinOffset = 0;
-	let winningItem: Item | null = null;
 	let trackRef: HTMLDivElement;
 
 	$: itemsToSpin = items;
-	$: currentSpinDuration = internalSpinDuration;
 
 	function updateDimensions() {
 		if (window.innerWidth <= 480) {
@@ -48,7 +45,7 @@
 
 		// Set initial CSS properties on mount
 		if (trackRef) {
-			trackRef.style.setProperty('--spin-duration', `${currentSpinDuration}s`);
+			trackRef.style.setProperty('--spin-duration', `${spinDuration}s`);
 			trackRef.style.setProperty('--item-width', `${itemWidthSignal}px`);
 			trackRef.style.setProperty('--item-margin-horizontal', `${itemMarginHorizontal}px`);
 			trackRef.style.setProperty('--actual-item-space', `${actualItemSpace}px`);
@@ -64,12 +61,12 @@
 	// Reactive block to generate/re-generate roulette items only on client
 	// This will run on initial mount (when `browser` is true) and whenever `itemsToSpin` changes
 	$: if (browser && itemsToSpin) {
-		rouletteItems = generateRouletteItems(itemsToSpin, currentSpinDuration, itemsInViewSignal);
+		rouletteItems = generateRouletteItems(itemsToSpin, spinDuration, itemsInViewSignal);
 	}
 
 	// This reactive block will only run in the browser after trackRef is bound
 	$: if (trackRef && typeof window !== 'undefined') {
-		trackRef.style.setProperty('--spin-duration', `${currentSpinDuration}s`);
+		trackRef.style.setProperty('--spin-duration', `${spinDuration}s`);
 		trackRef.style.setProperty('--item-width', `${itemWidthSignal}px`);
 		trackRef.style.setProperty('--item-margin-horizontal', `${itemMarginHorizontal}px`);
 		trackRef.style.setProperty('--actual-item-space', `${actualItemSpace}px`);
@@ -106,7 +103,6 @@
 
 		rouletteItems = newItems;
 		isSpinning = true;
-		winningItem = actualWinnerInArray;
 
 		if (trackRef) {
 			trackRef.style.transition = 'none';
