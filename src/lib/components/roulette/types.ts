@@ -1,12 +1,10 @@
-export interface CaseItem {
-	id: string; // Added id property for Svelte key
+export type Item = {
 	name: string;
-	rarity: keyof typeof RARITY_COLORS;
-	weight: number;
+	color: string;
+	teamCode?: string;
 	image?: string;
-	description?: string;
-	color?: string; // Add color property for roulette item color
-}
+	[key: string]: any;
+};
 
 export const RARITY_COLORS = {
 	Consumer: '#b0c3d9',

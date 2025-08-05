@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import type { CaseItem } from './types';
+	import type { Item } from './types';
 	import { generateRouletteItems, selectWeightedRandomItem } from './utils';
 	import RouletteDisplay from './RouletteDisplay/RouletteDisplay.svelte';
 	import { browser } from '$app/environment';
 
-	export let items: CaseItem[] = [];
-	export let onItemWon: (item: CaseItem) => void = () => {};
+	export let items: Item[] = [];
+	export let onItemWon: (item: Item) => void = () => {};
 	export let spinDuration: number = 8;
 	export let itemWidth: number = 140;
 	export let itemsInView: number = 5;
@@ -21,9 +21,9 @@
 	$: actualItemSpace = itemWidthSignal + itemMarginHorizontal * 2;
 
 	let isSpinning = false;
-	let rouletteItems: CaseItem[] = [];
+	let rouletteItems: Item[] = [];
 	let spinOffset = 0;
-	let winningItem: CaseItem | null = null;
+	let winningItem: Item | null = null;
 	let trackRef: HTMLDivElement;
 
 	$: itemsToSpin = items;
@@ -137,7 +137,7 @@
 </script>
 
 <div
-	class="relative mx-auto w-full max-w-3xl overflow-hidden rounded-2xl bg-gradient-to-br from-[#1b263b] via-[#274472] to-[#212f45] p-8 shadow-2xl backdrop-blur-lg ring-2 ring-[#f7d774]/60 {customClassName}"
+	class="relative mx-auto w-full max-w-3xl overflow-hidden rounded-2xl bg-gradient-to-br from-[#1b263b] via-[#274472] to-[#212f45] p-8 shadow-2xl ring-2 ring-[#f7d774]/60 backdrop-blur-lg {customClassName}"
 >
 	<RouletteDisplay
 		{isSpinning}

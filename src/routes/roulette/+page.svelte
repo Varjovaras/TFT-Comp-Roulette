@@ -6,6 +6,7 @@ import type { CaseItem } from '../../lib/components/roulette/types';
 interface CompCaseItem extends CaseItem {
 	link: string;
 	color?: string;
+	teamCode?: string;
 }
 
 let rouletteItems: CompCaseItem[] = [];
@@ -21,13 +22,14 @@ onMount(async () => {
 		const result = await response.json();
 
 		if (result) {
-			rouletteItems = result.map((comp: { name: string; link: string; color?: string }) => ({
+							rouletteItems = result.map((comp: { name: string; link: string; color?: string; teamCode?: string }) => ({
 				name: comp.name,
 				rarity: 'Consumer',
 				weight: 100,
 				image: `https://via.placeholder.com/100x100/CCCCCC/000000?text=${comp.name.substring(0, 1)}`,
 				link: comp.link,
 				color: comp.color,
+				teamCode: comp.teamCode,
 				id: comp.link
 			}));
 		} else {
@@ -48,6 +50,26 @@ function handleItemWon(item: CaseItem) {
 function closeWinningModal() {
 	showWinningModal = false;
 	winningComp = null;
+}
+
+let copyButtonText = 'Copy Team Code';
+
+function copyTeamCode(teamCode: string) {
+	if (navigator.clipboard) {
+		navigator.clipboard.writeText(teamCode).then(
+			() => {
+				copyButtonText = 'Copied!';
+				setTimeout(() => {
+					copyButtonText = 'Copy Team Code';
+				}, 2000);
+			},
+			(err) => {
+				console.error('Failed to copy team code: ', err);
+			}
+		);
+	} else {
+		console.error('Clipboard API not available');
+	}
 }
 </script>
 
@@ -83,6 +105,14 @@ function closeWinningModal() {
 				>
 					View Comp Details
 				</a>
+				{#if winningComp.teamCode}
+					<button
+						on:click={() => copyTeamCode(winningComp.teamCode)}
+						class="mt-4 ml-2 rounded-md bg-green-600 px-4 py-2 font-bold text-white transition-colors duration-200 hover:bg-green-700"
+					>
+						{copyButtonText}
+					</button>
+				{/if}
 				<button
 					on:click={closeWinningModal}
 					class="mt-4 rounded-md bg-gray-600 px-4 py-2 font-bold text-white transition-colors duration-200 hover:bg-gray-700"

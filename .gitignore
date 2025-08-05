@@ -24,3 +24,4 @@ vite.config.ts.timestamp-*
 
 scraped.html
 scraped_data.html
+scraped_data_error.html
