@@ -1,12 +1,5 @@
 [
   {
-    "name": "Mighty Mech Karma",
-    "link": "https://www.metatft.com/comps#TFT15_SentaiRanger-TFT15_Karma",
-    "color": "#FFD700",
-    "teamCode": "0201916d19518719901301615a017000TFTSet15",
-    "tier": "S"
-  },
-  {
     "name": "Soul Fighter Samira",
     "link": "https://www.metatft.com/comps#TFT15_SoulFighter-TFT15_Samira",
     "color": "#FFD700",
@@ -31,7 +24,7 @@
     "name": "Bastion Kog'Maw",
     "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_KogMaw",
     "color": "#FFD700",
-    "teamCode": "0219a18c17919400d19316a185000000TFTSet15",
+    "teamCode": "0219a18c19417900d19316a185000000TFTSet15",
     "tier": "S"
   },
   {
@@ -42,24 +35,24 @@
     "tier": "S"
   },
   {
+    "name": "Heavyweight Malzahar Yuumi",
+    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Malzahar-TFT15_Yuumi",
+    "color": "#FFD700",
+    "teamCode": "0217e19618216616e17715a197000000TFTSet15",
+    "tier": "S"
+  },
+  {
+    "name": "Mighty Mech Karma",
+    "link": "https://www.metatft.com/comps#TFT15_SentaiRanger-TFT15_Karma",
+    "color": "#FFD700",
+    "teamCode": "0217e19618216616e17715a197000000TFTSet15",
+    "tier": "S"
+  },
+  {
     "name": "Prodigy Yuumi",
     "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Yuumi",
     "color": "#FFD700",
-    "teamCode": "0219a01d17116c18718417617d000000TFTSet15",
-    "tier": "S"
-  },
-  {
-    "name": "Soul Fighter Samira Sett",
-    "link": "https://www.metatft.com/comps#TFT15_SoulFighter-TFT15_Samira-TFT15_Sett",
-    "color": "#FFD700",
-    "teamCode": "0219a01d17116c18718417617d000000TFTSet15",
-    "tier": "S"
-  },
-  {
-    "name": "Star Guardian Jinx Poppy Varus",
-    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx-TFT15_Poppy-TFT15_Varus",
-    "color": "#FFD700",
-    "teamCode": "0217018219017116301d177018185000TFTSet15",
+    "teamCode": "0217e19618216616e17715a197000000TFTSet15",
     "tier": "S"
   },
   {
@@ -70,43 +63,29 @@
     "tier": "A"
   },
   {
-    "name": "Bastion Xayah Yasuo",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Xayah-TFT15_Yasuo",
+    "name": "Soul Fighter Samira Sett",
+    "link": "https://www.metatft.com/comps#TFT15_SoulFighter-TFT15_Samira-TFT15_Sett",
     "color": "#4b69ff",
-    "teamCode": "0219a18e18a01415e01a15a180000000TFTSet15",
-    "tier": "A"
-  },
-  {
-    "name": "Bastion Yasuo",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Yasuo",
-    "color": "#4b69ff",
-    "teamCode": "0219a18e18a01415e01a15a180000000TFTSet15",
+    "teamCode": "0218818a16b19116317b193173180000TFTSet15",
     "tier": "A"
   },
   {
     "name": "Heavyweight Smolder",
     "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Smolder",
     "color": "#4b69ff",
-    "teamCode": "0200f16618216e15c17715a197000000TFTSet15",
+    "teamCode": "0218818a16b19116317b193173180000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Bastion Yasuo",
+    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Yasuo",
+    "color": "#4b69ff",
+    "teamCode": "0218818a16b19116317b193173180000TFTSet15",
     "tier": "A"
   },
   {
     "name": "Star Guardian Ahri",
     "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Ahri",
-    "color": "#4b69ff",
-    "teamCode": "0215b17018c18201d19218518d000000TFTSet15",
-    "tier": "A"
-  },
-  {
-    "name": "Heavyweight Malzahar",
-    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Malzahar",
-    "color": "#4b69ff",
-    "teamCode": "0215b17018c18201d19218518d000000TFTSet15",
-    "tier": "A"
-  },
-  {
-    "name": "Star Guardian Jinx",
-    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx",
     "color": "#4b69ff",
     "teamCode": "0215b17018c18201d19218518d000000TFTSet15",
     "tier": "A"
@@ -119,52 +98,80 @@
     "tier": "A"
   },
   {
-    "name": "Bastion Smolder",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Smolder",
+    "name": "Star Guardian Jinx Poppy Varus",
+    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx-TFT15_Poppy-TFT15_Varus",
     "color": "#4b69ff",
-    "teamCode": "0200f19418c17900d19316a185000000TFTSet15",
+    "teamCode": "02170199182163014177192018185000TFTSet15",
     "tier": "A"
   },
   {
     "name": "Battle Academia Caitlyn",
     "link": "https://www.metatft.com/comps#TFT15_BattleAcademia-TFT15_Caitlyn",
     "color": "#4b69ff",
-    "teamCode": "0200f19418c17900d19316a185000000TFTSet15",
+    "teamCode": "02170199182163014177192018185000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Star Guardian Jinx",
+    "link": "https://www.metatft.com/comps#TFT15_StarGuardian-TFT15_Jinx",
+    "color": "#4b69ff",
+    "teamCode": "0217018218901d15b17719218518d000TFTSet15",
     "tier": "A"
   },
   {
     "name": "Mentor Ryze",
     "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Ryze",
     "color": "#4b69ff",
-    "teamCode": "0200f19418c17900d19316a185000000TFTSet15",
+    "teamCode": "0218701316d15c18e19417715a000000TFTSet15",
     "tier": "A"
+  },
+  {
+    "name": "Crystal Gambit Ashe",
+    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe",
+    "color": "#4b69ff",
+    "teamCode": "0218701316d15c18e19417715a000000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Bastion Smolder",
+    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Smolder",
+    "color": "#4b69ff",
+    "teamCode": "0218701316d15c18e19417715a000000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Bastion Xayah",
+    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Xayah",
+    "color": "#4b69ff",
+    "teamCode": "0219200d19317017918c16a185000000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Protector Akali",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Akali",
+    "color": "#4b69ff",
+    "teamCode": "0215c17118701d16d16c18417617d000TFTSet15",
+    "tier": "A"
+  },
+  {
+    "name": "Heavyweight Malzahar",
+    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Malzahar",
+    "color": "#8847ff",
+    "teamCode": "0215c17118701d16d16c18417617d000TFTSet15",
+    "tier": "B"
   },
   {
     "name": "Battle Academia Katarina",
     "link": "https://www.metatft.com/comps#TFT15_BattleAcademia-TFT15_Katarina",
     "color": "#8847ff",
-    "teamCode": "0217419618417918716e16816a000000TFTSet15",
+    "teamCode": "0215c17118701d16d16c18417617d000TFTSet15",
     "tier": "B"
   },
   {
-    "name": "Sorcerer Karma K'Sante",
-    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma-TFT15_KSante",
+    "name": "Juggernaut Smolder",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Smolder",
     "color": "#8847ff",
-    "teamCode": "0201917116b16d18718c17b176017000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "Mighty Mech Karma Jarvan IV",
-    "link": "https://www.metatft.com/comps#TFT15_SentaiRanger-TFT15_Karma-TFT15_JarvanIV",
-    "color": "#8847ff",
-    "teamCode": "0201917116b16d18718c17b176017000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "Heavyweight Malzahar Rammus",
-    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Malzahar-TFT15_Rammus",
-    "color": "#8847ff",
-    "teamCode": "0201917116b16d18718c17b176017000TFTSet15",
+    "teamCode": "0200f18e18a01415e01a15a180000000TFTSet15",
     "tier": "B"
   },
   {
@@ -175,53 +182,74 @@
     "tier": "B"
   },
   {
-    "name": "Bastion Xayah",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Xayah",
-    "color": "#8847ff",
-    "teamCode": "0219200d19317017918c16a185000000TFTSet15",
-    "tier": "B"
-  },
-  {
     "name": "Sorcerer Karma",
     "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma",
     "color": "#8847ff",
-    "teamCode": "0219200d19317017918c16a185000000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "The Crew Malphite Ziggs",
-    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Malphite-TFT15_Ziggs",
-    "color": "#8847ff",
-    "teamCode": "0219200d19317017918c16a185000000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "Soul Fighter Viego",
-    "link": "https://www.metatft.com/comps#TFT15_SoulFighter-TFT15_Viego",
-    "color": "#8847ff",
-    "teamCode": "0219118a18816b17b193173180000000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "Wraith Kayle",
-    "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_Kayle",
-    "color": "#8847ff",
-    "teamCode": "0217519719017101e17e18e16f15a000TFTSet15",
-    "tier": "B"
-  },
-  {
-    "name": "Protector Akali",
-    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Akali",
-    "color": "#8847ff",
-    "teamCode": "0217519719017101e17e18e16f15a000TFTSet15",
+    "teamCode": "0216c17718716d01318e19415a000000TFTSet15",
     "tier": "B"
   },
   {
     "name": "Edgelord Volibear",
     "link": "https://www.metatft.com/comps#TFT15_Edgelord-TFT15_Volibear",
     "color": "#8847ff",
-    "teamCode": "0217519719017101e17e18e16f15a000TFTSet15",
+    "teamCode": "0216c17718716d01318e19415a000000TFTSet15",
     "tier": "B"
+  },
+  {
+    "name": "Sorcerer Karma Gwen",
+    "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Karma-TFT15_Gwen",
+    "color": "#8847ff",
+    "teamCode": "0201916b16d16318718c17b176017000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "The Crew Malphite Ziggs",
+    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Malphite-TFT15_Ziggs",
+    "color": "#8847ff",
+    "teamCode": "0217d19801b00d01c16d18716c000000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Wraith Kayle",
+    "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_Kayle",
+    "color": "#8847ff",
+    "teamCode": "0217d19801b00d01c16d18716c000000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Soul Fighter Viego",
+    "link": "https://www.metatft.com/comps#TFT15_SoulFighter-TFT15_Viego",
+    "color": "#8847ff",
+    "teamCode": "0217d19801b00d01c16d18716c000000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Protector Xayah",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Xayah",
+    "color": "#8847ff",
+    "teamCode": "0219218401d17119416c17617d000000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Edgelord Volibear Samira",
+    "link": "https://www.metatft.com/comps#TFT15_Edgelord-TFT15_Volibear-TFT15_Samira",
+    "color": "#8847ff",
+    "teamCode": "0219918819516319401400d192018000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Juggernaut Dr. Mundo Jhin",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_DrMundo-TFT15_Jhin",
+    "color": "#8847ff",
+    "teamCode": "0219918819516319401400d192018000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Mentor Katarina",
+    "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Katarina",
+    "color": "#b0c3d9",
+    "teamCode": "0219918819516319401400d192018000TFTSet15",
+    "tier": "C"
   },
   {
     "name": "The Crew Malphite Jhin",
@@ -238,45 +266,45 @@
     "tier": "C"
   },
   {
-    "name": "Juggernaut Dr. Mundo Jhin",
-    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_DrMundo-TFT15_Jhin",
+    "name": "Heavyweight Darius",
+    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius",
     "color": "#b0c3d9",
     "teamCode": "021721c116615c18e15a176000000000TFTSet15",
     "tier": "C"
   },
   {
-    "name": "Protector Rakan",
-    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Rakan",
+    "name": "Protector Smolder",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Smolder",
     "color": "#b0c3d9",
     "teamCode": "021721c116615c18e15a176000000000TFTSet15",
-    "tier": "C"
-  },
-  {
-    "name": "Mentor Katarina",
-    "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Katarina",
-    "color": "#b0c3d9",
-    "teamCode": "0217418717715c16e18e194184000000TFTSet15",
     "tier": "C"
   },
   {
     "name": "Prodigy Yuumi Leona",
     "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Yuumi-TFT15_Leona",
     "color": "#b0c3d9",
-    "teamCode": "0219617918916a17117e18416818d000TFTSet15",
-    "tier": "C"
-  },
-  {
-    "name": "Heavyweight Darius",
-    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius",
-    "color": "#b0c3d9",
-    "teamCode": "0219617918916a17117e18416818d000TFTSet15",
+    "teamCode": "0219617916a18917e18416818d000000TFTSet15",
     "tier": "C"
   },
   {
     "name": "Wraith K'Sante",
     "link": "https://www.metatft.com/comps#TFT15_Empyrean-TFT15_KSante",
     "color": "#b0c3d9",
-    "teamCode": "0219617918916a17117e18416818d000TFTSet15",
+    "teamCode": "0217119017e18216616f177175197000TFTSet15",
+    "tier": "C"
+  },
+  {
+    "name": "The Crew Leona",
+    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Leona",
+    "color": "#b0c3d9",
+    "teamCode": "0217119017e18216616f177175197000TFTSet15",
+    "tier": "C"
+  },
+  {
+    "name": "Executioner Akali",
+    "link": "https://www.metatft.com/comps#TFT15_Destroyer-TFT15_Akali",
+    "color": "#b0c3d9",
+    "teamCode": "0217119017e18216616f177175197000TFTSet15",
     "tier": "C"
   },
   {
@@ -287,80 +315,52 @@
     "tier": "C"
   },
   {
-    "name": "The Crew Twisted Fate",
-    "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_TwistedFate",
+    "name": "Mighty Mech Lucian",
+    "link": "https://www.metatft.com/comps#TFT15_SentaiRanger-TFT15_Lucian",
     "color": "#b0c3d9",
-    "teamCode": "0201c17916b16301e18c00d193185000TFTSet15",
+    "teamCode": "0201701316d19501918701615a000000TFTSet15",
     "tier": "C"
   },
   {
-    "name": "Sniper K'Sante",
-    "link": "https://www.metatft.com/comps#TFT15_Sniper-TFT15_KSante",
-    "color": "#b0c3d9",
-    "teamCode": "0201c17916b16301e18c00d193185000TFTSet15",
-    "tier": "C"
-  },
-  {
-    "name": "Bastion Jinx",
-    "link": "https://www.metatft.com/comps#TFT15_Bastion-TFT15_Jinx",
+    "name": "Prodigy Rell",
+    "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Rell",
     "color": "#eb4b4b",
-    "teamCode": "0201c17916b16301e18c00d193185000TFTSet15",
-    "tier": "D"
-  },
-  {
-    "name": "Heavyweight Darius Poppy",
-    "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius-TFT15_Poppy",
-    "color": "#eb4b4b",
-    "teamCode": "0216618216e15c17217715a197000000TFTSet15",
-    "tier": "D"
-  },
-  {
-    "name": "Crystal Gambit Ashe",
-    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe",
-    "color": "#eb4b4b",
-    "teamCode": "0215e18c01e16d16317118e16c01a000TFTSet15",
+    "teamCode": "0201701316d19501918701615a000000TFTSet15",
     "tier": "D"
   },
   {
     "name": "Supreme Cells Kai'Sa Darius",
     "link": "https://www.metatft.com/comps#TFT15_SupremeCells-TFT15_KaiSa-TFT15_Darius",
     "color": "#eb4b4b",
-    "teamCode": "0215e18c01e16d16317118e16c01a000TFTSet15",
-    "tier": "D"
-  },
-  {
-    "name": "Executioner Akali",
-    "link": "https://www.metatft.com/comps#TFT15_Destroyer-TFT15_Akali",
-    "color": "#eb4b4b",
-    "teamCode": "0215e18c01e16d16317118e16c01a000TFTSet15",
+    "teamCode": "0201701316d19501918701615a000000TFTSet15",
     "tier": "D"
   },
   {
     "name": "Juggernaut Kayle",
     "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Kayle",
     "color": "#eb4b4b",
-    "teamCode": "0217519718a18e16301401a15a180000TFTSet15",
-    "tier": "D"
-  },
-  {
-    "name": "Juggernaut Sett",
-    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Sett",
-    "color": "#eb4b4b",
-    "teamCode": "0218a01c16301e18e01401a15a180000TFTSet15",
+    "teamCode": "0217518a19718e16301401a15a180000TFTSet15",
     "tier": "D"
   },
   {
     "name": "Sorcerer Ahri",
     "link": "https://www.metatft.com/comps#TFT15_Spellslinger-TFT15_Ahri",
     "color": "#eb4b4b",
-    "teamCode": "0218a01c16301e18e01401a15a180000TFTSet15",
+    "teamCode": "0215b18c01916d18717b176017000000TFTSet15",
     "tier": "D"
   },
   {
-    "name": "Protector Smolder",
-    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Smolder",
+    "name": "Juggernaut Sett",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Sett",
     "color": "#eb4b4b",
-    "teamCode": "0218a01c16301e18e01401a15a180000TFTSet15",
+    "teamCode": "0215b18c01916d18717b176017000000TFTSet15",
+    "tier": "D"
+  },
+  {
+    "name": "Mentor Ryze Yasuo",
+    "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Ryze-TFT15_Yasuo",
+    "color": "#eb4b4b",
+    "teamCode": "0215b18c01916d18717b176017000000TFTSet15",
     "tier": "D"
   },
   {
@@ -371,31 +371,45 @@
     "tier": "D"
   },
   {
-    "name": "Juggernaut Ashe",
-    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Ashe",
+    "name": "Mentor Xayah",
+    "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Xayah",
     "color": "#eb4b4b",
-    "teamCode": "0215e18a01e16318e01401a15a180000TFTSet15",
+    "teamCode": "0219217719418e18718819900d000000TFTSet15",
     "tier": "D"
   },
   {
-    "name": "Mentor Yasuo",
-    "link": "https://www.metatft.com/comps#TFT15_OldMentor-TFT15_Yasuo",
+    "name": "Juggernaut Ashe",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Ashe",
     "color": "#eb4b4b",
-    "teamCode": "0215e18a01e16318e01401a15a180000TFTSet15",
+    "teamCode": "0219217719418e18718819900d000000TFTSet15",
     "tier": "D"
   },
   {
     "name": "Duelist Ashe",
     "link": "https://www.metatft.com/comps#TFT15_Duelist-TFT15_Ashe",
     "color": "#eb4b4b",
-    "teamCode": "0215e18a01e16318e01401a15a180000TFTSet15",
+    "teamCode": "0219217719418e18718819900d000000TFTSet15",
     "tier": "D"
   },
   {
-    "name": "Prodigy Rell",
-    "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Rell",
+    "name": "Crystal Gambit Ashe Swain",
+    "link": "https://www.metatft.com/comps#TFT15_GemForce-TFT15_Ashe-TFT15_Swain",
     "color": "#eb4b4b",
-    "teamCode": "0218d18516a16817919617e18c000000TFTSet15",
+    "teamCode": "0215e18c01e16d18e16c01a18d000000TFTSet15",
+    "tier": "D"
+  },
+  {
+    "name": "Protector Janna",
+    "link": "https://www.metatft.com/comps#TFT15_Protector-TFT15_Janna",
+    "color": "#eb4b4b",
+    "teamCode": "0216c01d17118416d18717617d000000TFTSet15",
+    "tier": "D"
+  },
+  {
+    "name": "Prodigy Syndra",
+    "link": "https://www.metatft.com/comps#TFT15_Prodigy-TFT15_Syndra",
+    "color": "#eb4b4b",
+    "teamCode": "0216c01d17118416d18717617d000000TFTSet15",
     "tier": "D"
   }
 ]
