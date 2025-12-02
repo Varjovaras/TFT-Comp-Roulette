@@ -168,31 +168,24 @@
     "tier": "B"
   },
   {
-    "name": "Juggernaut Kog'Maw",
-    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_KogMaw",
-    "color": "#8847ff",
-    "teamCode": "0219a18a18e15e01401a15a180000000TFTSet15",
-    "tier": "B"
-  },
-  {
     "name": "Heavyweight Darius",
     "link": "https://www.metatft.com/comps#TFT15_Heavyweight-TFT15_Darius",
     "color": "#8847ff",
-    "teamCode": "0219a18a18e15e01401a15a180000000TFTSet15",
+    "teamCode": "0216618215c16e17217715a197000000TFTSet15",
     "tier": "B"
   },
   {
     "name": "The Crew Leona",
     "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Leona",
     "color": "#8847ff",
-    "teamCode": "0219a18a18e15e01401a15a180000000TFTSet15",
+    "teamCode": "0216618215c16e17217715a197000000TFTSet15",
     "tier": "B"
   },
   {
-    "name": "Juggernaut Smolder",
-    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Smolder",
+    "name": "Juggernaut Kog'Maw",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_KogMaw",
     "color": "#8847ff",
-    "teamCode": "0200f18a18e16301401a15a180000000TFTSet15",
+    "teamCode": "0216618215c16e17217715a197000000TFTSet15",
     "tier": "B"
   },
   {
@@ -207,6 +200,13 @@
     "link": "https://www.metatft.com/comps#TFT15_TheCrew-TFT15_Malphite-TFT15_Ziggs",
     "color": "#8847ff",
     "teamCode": "0217d19801b00d01c16d18716c000000TFTSet15",
+    "tier": "B"
+  },
+  {
+    "name": "Juggernaut Smolder",
+    "link": "https://www.metatft.com/comps#TFT15_Juggernaut-TFT15_Smolder",
+    "color": "#8847ff",
+    "teamCode": "0200f18a18e16301401a15a180000000TFTSet15",
     "tier": "B"
   },
   {
