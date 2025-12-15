@@ -10,7 +10,7 @@
     "name": "Bilgewater Miss Fortune Tahm Kench",
     "link": "https://www.metatft.com/comps#TFT16_Bilgewater-TFT16_MissFortune-TFT16_TahmKench",
     "color": "#FFD700",
-    "teamCode": "0232d03436032235b35735d336350000TFTSet16",
+    "teamCode": "0232d36003432235b35735d336350000TFTSet16",
     "tier": "S"
   },
   {
@@ -35,15 +35,15 @@
     "tier": "S"
   },
   {
-    "name": "Arcanist Diana",
-    "link": "https://www.metatft.com/comps#TFT16_Sorcerer-TFT16_Diana",
+    "name": "Void Kai'Sa",
+    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Kaisa",
     "color": "#FFD700",
     "teamCode": "0201133f36102535833134332f000000TFTSet16",
     "tier": "S"
   },
   {
-    "name": "Void Kai'Sa",
-    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Kaisa",
+    "name": "Arcanist Diana",
+    "link": "https://www.metatft.com/comps#TFT16_Sorcerer-TFT16_Diana",
     "color": "#FFD700",
     "teamCode": "0201133f36102535833134332f000000TFTSet16",
     "tier": "S"
@@ -86,9 +86,9 @@
   {
     "name": "Freljord Lissandra",
     "link": "https://www.metatft.com/comps#TFT16_Freljord-TFT16_Lissandra",
-    "color": "#4b69ff",
+    "color": "#FFD700",
     "teamCode": "0202a35001334133637003536133f000TFTSet16",
-    "tier": "A"
+    "tier": "S"
   },
   {
     "name": "Ionia Yunara Wukong",
@@ -98,24 +98,31 @@
     "tier": "A"
   },
   {
+    "name": "Void Kai'Sa  Rift Herald",
+    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Kaisa-TFT16_RiftHerald",
+    "color": "#4b69ff",
+    "teamCode": "0201b016366025373352354353355000TFTSet16",
+    "tier": "A"
+  },
+  {
     "name": "Bruiser Sion",
     "link": "https://www.metatft.com/comps#TFT16_Brawler-TFT16_Sion",
     "color": "#4b69ff",
-    "teamCode": "0232e01833537335003532c351000000TFTSet16",
+    "teamCode": "0201b016366025373352354353355000TFTSet16",
     "tier": "A"
   },
   {
     "name": "Slayer Bel'Veth",
     "link": "https://www.metatft.com/comps#TFT16_Slayer-TFT16_BelVeth",
     "color": "#4b69ff",
-    "teamCode": "0232e01833537335003532c351000000TFTSet16",
+    "teamCode": "0201b016366025373352354353355000TFTSet16",
     "tier": "A"
   },
   {
-    "name": "Void Kai'Sa  Rift Herald",
-    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Kaisa-TFT16_RiftHerald",
+    "name": "Arcanist Swain",
+    "link": "https://www.metatft.com/comps#TFT16_Sorcerer-TFT16_Swain",
     "color": "#4b69ff",
-    "teamCode": "0232e01833537335003532c351000000TFTSet16",
+    "teamCode": "0202503401935b35d33234c34334b000TFTSet16",
     "tier": "A"
   },
   {
@@ -130,13 +137,6 @@
     "link": "https://www.metatft.com/comps#TFT16_Ionia-TFT16_Yasuo-TFT16_Yone",
     "color": "#4b69ff",
     "teamCode": "0234d36c372350362366335351000000TFTSet16",
-    "tier": "A"
-  },
-  {
-    "name": "Arcanist Swain",
-    "link": "https://www.metatft.com/comps#TFT16_Sorcerer-TFT16_Swain",
-    "color": "#4b69ff",
-    "teamCode": "0202503401935b35d33234c34334b000TFTSet16",
     "tier": "A"
   },
   {
@@ -168,27 +168,6 @@
     "tier": "A"
   },
   {
-    "name": "Quickstriker Warwick",
-    "link": "https://www.metatft.com/comps#TFT16_Rapidfire-TFT16_Warwick",
-    "color": "#8847ff",
-    "teamCode": "0236d34034803435802036133f34b000TFTSet16",
-    "tier": "B"
-  },
-  {
-    "name": "Noxus Ambessa",
-    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Ambessa",
-    "color": "#8847ff",
-    "teamCode": "0236d34034803435802036133f34b000TFTSet16",
-    "tier": "B"
-  },
-  {
-    "name": "Shadow Isles Kalista  Thresh  Warden",
-    "link": "https://www.metatft.com/comps#TFT16_ShadowIsles-TFT16_Kalista-TFT16_Thresh-TFT16_Warden",
-    "color": "#8847ff",
-    "teamCode": "0236d34034803435802036133f34b000TFTSet16",
-    "tier": "B"
-  },
-  {
     "name": "Targon Taric",
     "link": "https://www.metatft.com/comps#TFT16_Targon-TFT16_Taric",
     "color": "#8847ff",
@@ -196,10 +175,24 @@
     "tier": "B"
   },
   {
-    "name": "Demacia Vayne",
-    "link": "https://www.metatft.com/comps#TFT16_Demacia-TFT16_Vayne",
+    "name": "Quickstriker Warwick",
+    "link": "https://www.metatft.com/comps#TFT16_Rapidfire-TFT16_Warwick",
     "color": "#8847ff",
-    "teamCode": "0200433c33d35f36f01033833a000000TFTSet16",
+    "teamCode": "0233603435801235b35d02536b331000TFTSet16",
+    "tier": "B"
+  },
+  {
+    "name": "Noxus Ambessa",
+    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Ambessa",
+    "color": "#8847ff",
+    "teamCode": "0233603435801235b35d02536b331000TFTSet16",
+    "tier": "B"
+  },
+  {
+    "name": "Shadow Isles Kalista  Thresh  Warden",
+    "link": "https://www.metatft.com/comps#TFT16_ShadowIsles-TFT16_Kalista-TFT16_Thresh-TFT16_Warden",
+    "color": "#8847ff",
+    "teamCode": "0201e02101d02035b35734034c00f000TFTSet16",
     "tier": "B"
   },
   {
@@ -217,25 +210,32 @@
     "tier": "B"
   },
   {
-    "name": "Shurima Azir",
-    "link": "https://www.metatft.com/comps#TFT16_Shurima-TFT16_Azir",
+    "name": "Demacia Vayne",
+    "link": "https://www.metatft.com/comps#TFT16_Demacia-TFT16_Vayne",
     "color": "#8847ff",
-    "teamCode": "0234133f34036135737301133e000000TFTSet16",
+    "teamCode": "0200433c33d35f36f01033833a000000TFTSet16",
     "tier": "B"
   },
   {
-    "name": "Shadow Isles Viego",
-    "link": "https://www.metatft.com/comps#TFT16_ShadowIsles-TFT16_Viego",
+    "name": "Shurima Azir",
+    "link": "https://www.metatft.com/comps#TFT16_Shurima-TFT16_Azir",
     "color": "#8847ff",
-    "teamCode": "0234133f34036135737301133e000000TFTSet16",
+    "teamCode": "0200433c33d35f36f01033833a000000TFTSet16",
     "tier": "B"
   },
   {
     "name": "Piltover T-Hex",
     "link": "https://www.metatft.com/comps#TFT16_Piltover-TFT16_THex",
     "color": "#8847ff",
-    "teamCode": "0236534c34002035903402b34b349000TFTSet16",
+    "teamCode": "0200433c33d35f36f01033833a000000TFTSet16",
     "tier": "B"
+  },
+  {
+    "name": "Shadow Isles Viego",
+    "link": "https://www.metatft.com/comps#TFT16_ShadowIsles-TFT16_Viego",
+    "color": "#b0c3d9",
+    "teamCode": "0202401e02100f34001d020322000000TFTSet16",
+    "tier": "C"
   },
   {
     "name": "Ionia Yunara",
@@ -245,15 +245,15 @@
     "tier": "C"
   },
   {
-    "name": "Noxus Swain Draven",
-    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Swain-TFT16_Draven",
+    "name": "Targon Aurelion Sol Diana",
+    "link": "https://www.metatft.com/comps#TFT16_Targon-TFT16_AurelionSol-TFT16_Diana",
     "color": "#b0c3d9",
     "teamCode": "0202a35034f362358370010351000000TFTSet16",
     "tier": "C"
   },
   {
-    "name": "Targon Aurelion Sol Diana",
-    "link": "https://www.metatft.com/comps#TFT16_Targon-TFT16_AurelionSol-TFT16_Diana",
+    "name": "Noxus Draven",
+    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Draven",
     "color": "#b0c3d9",
     "teamCode": "0202a35034f362358370010351000000TFTSet16",
     "tier": "C"
@@ -280,24 +280,24 @@
     "tier": "C"
   },
   {
+    "name": "Zaun Ekko",
+    "link": "https://www.metatft.com/comps#TFT16_Zaun-TFT16_Ekko",
+    "color": "#b0c3d9",
+    "teamCode": "0201535436734c02534334b34a000000TFTSet16",
+    "tier": "C"
+  },
+  {
     "name": "Targon Aurelion Sol",
     "link": "https://www.metatft.com/comps#TFT16_Targon-TFT16_AurelionSol",
     "color": "#b0c3d9",
-    "teamCode": "02368023336334356333335000000000TFTSet16",
+    "teamCode": "0201535436734c02534334b34a000000TFTSet16",
     "tier": "C"
   },
   {
     "name": "Zaun Warwick",
     "link": "https://www.metatft.com/comps#TFT16_Zaun-TFT16_Warwick",
     "color": "#b0c3d9",
-    "teamCode": "02368023336334356333335000000000TFTSet16",
-    "tier": "C"
-  },
-  {
-    "name": "Zaun Ekko",
-    "link": "https://www.metatft.com/comps#TFT16_Zaun-TFT16_Ekko",
-    "color": "#b0c3d9",
-    "teamCode": "02368023336334356333335000000000TFTSet16",
+    "teamCode": "0201535436734c02534334b34a000000TFTSet16",
     "tier": "C"
   },
   {
@@ -308,24 +308,24 @@
     "tier": "C"
   },
   {
-    "name": "Bruiser Sion Volibear",
-    "link": "https://www.metatft.com/comps#TFT16_Brawler-TFT16_Sion-TFT16_Volibear",
-    "color": "#eb4b4b",
-    "teamCode": "0232e37335002f35a34103533e351000TFTSet16",
-    "tier": "D"
-  },
-  {
     "name": "Zaun Jinx",
     "link": "https://www.metatft.com/comps#TFT16_Zaun-TFT16_Jinx",
     "color": "#eb4b4b",
-    "teamCode": "0232e37335002f35a34103533e351000TFTSet16",
+    "teamCode": "0234802f36d36703401534b34a000000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Bruiser Sion Volibear",
+    "link": "https://www.metatft.com/comps#TFT16_Brawler-TFT16_Sion-TFT16_Volibear",
+    "color": "#eb4b4b",
+    "teamCode": "0234802f36d36703401534b34a000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Bilgewater Gangplank",
     "link": "https://www.metatft.com/comps#TFT16_Bilgewater-TFT16_Gangplank",
     "color": "#eb4b4b",
-    "teamCode": "0232e37335002f35a34103533e351000TFTSet16",
+    "teamCode": "0234802f36d36703401534b34a000000TFTSet16",
     "tier": "D"
   },
   {
@@ -336,17 +336,10 @@
     "tier": "D"
   },
   {
-    "name": "Disruptor Malzahar",
-    "link": "https://www.metatft.com/comps#TFT16_Magus-TFT16_Malzahar",
-    "color": "#eb4b4b",
-    "teamCode": "0235201636734c02502f34334b000000TFTSet16",
-    "tier": "D"
-  },
-  {
     "name": "Warden Miss Fortune",
     "link": "https://www.metatft.com/comps#TFT16_Warden-TFT16_MissFortune",
     "color": "#eb4b4b",
-    "teamCode": "0236532d32203435735d340020027000TFTSet16",
+    "teamCode": "0232d36532203435735d340020027000TFTSet16",
     "tier": "D"
   },
   {
@@ -360,42 +353,49 @@
     "name": "Noxus Sion",
     "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Sion",
     "color": "#eb4b4b",
-    "teamCode": "0234d34f36c35002a370010351000000TFTSet16",
-    "tier": "D"
-  },
-  {
-    "name": "Vanquisher Gangplank",
-    "link": "https://www.metatft.com/comps#TFT16_Vanquisher-TFT16_Gangplank",
-    "color": "#eb4b4b",
-    "teamCode": "0234d34f36c35002a370010351000000TFTSet16",
-    "tier": "D"
-  },
-  {
-    "name": "Noxus Draven",
-    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Draven",
-    "color": "#eb4b4b",
-    "teamCode": "0233136b02533201736132e32f000000TFTSet16",
+    "teamCode": "0232e33133201902536b01732f000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Invoker Lissandra",
     "link": "https://www.metatft.com/comps#TFT16_Invoker-TFT16_Lissandra",
     "color": "#eb4b4b",
-    "teamCode": "0234133635a34035737303536133e000TFTSet16",
+    "teamCode": "0232e33133201902536b01732f000000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Vanquisher Gangplank",
+    "link": "https://www.metatft.com/comps#TFT16_Vanquisher-TFT16_Gangplank",
+    "color": "#eb4b4b",
+    "teamCode": "0232e33133201902536b01732f000000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Noxus Draven Darius",
+    "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Draven-TFT16_Darius",
+    "color": "#eb4b4b",
+    "teamCode": "0233136b02533201736132e32f000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Warden Lissandra",
     "link": "https://www.metatft.com/comps#TFT16_Warden-TFT16_Lissandra",
     "color": "#eb4b4b",
-    "teamCode": "0234133635a34035737303536133e000TFTSet16",
+    "teamCode": "0234134035a35735d02032202b33e000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Bilgewater Twisted Fate",
     "link": "https://www.metatft.com/comps#TFT16_Bilgewater-TFT16_TwistedFate",
     "color": "#eb4b4b",
-    "teamCode": "0234133635a34035737303536133e000TFTSet16",
+    "teamCode": "0234134035a35735d02032202b33e000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Yordle Tristana",
+    "link": "https://www.metatft.com/comps#TFT16_Yordle-TFT16_Tristana",
+    "color": "#eb4b4b",
+    "teamCode": "0234134035a35735d02032202b33e000TFTSet16",
     "tier": "D"
   },
   {
@@ -413,13 +413,6 @@
     "tier": "D"
   },
   {
-    "name": "Yordle Tristana",
-    "link": "https://www.metatft.com/comps#TFT16_Yordle-TFT16_Tristana",
-    "color": "#eb4b4b",
-    "teamCode": "022df32037036e03536f2e0321000000TFTSet16",
-    "tier": "D"
-  },
-  {
     "name": "Piltover T-Hex Loris",
     "link": "https://www.metatft.com/comps#TFT16_Piltover-TFT16_THex-TFT16_Loris",
     "color": "#eb4b4b",
@@ -430,21 +423,21 @@
     "name": "Void Rift Herald",
     "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_RiftHerald",
     "color": "#eb4b4b",
-    "teamCode": "0236502034c34b03434002b349000000TFTSet16",
+    "teamCode": "0201636635502535235435332f000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Targon Aphelios",
     "link": "https://www.metatft.com/comps#TFT16_Targon-TFT16_Aphelios",
     "color": "#eb4b4b",
-    "teamCode": "0236502034c34b03434002b349000000TFTSet16",
+    "teamCode": "0201636635502535235435332f000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Ixtal Nidalee",
     "link": "https://www.metatft.com/comps#TFT16_Explorer-TFT16_Nidalee",
     "color": "#eb4b4b",
-    "teamCode": "0201434334201a34034136102c000000TFTSet16",
+    "teamCode": "0201636635502535235435332f000000TFTSet16",
     "tier": "D"
   },
   {
@@ -458,21 +451,21 @@
     "name": "Yordle Fizz",
     "link": "https://www.metatft.com/comps#TFT16_Yordle-TFT16_Fizz",
     "color": "#eb4b4b",
-    "teamCode": "0236637232434d33235332f02c000000TFTSet16",
+    "teamCode": "0236e37037103536f3202df2e0321000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Ixtal Bard",
     "link": "https://www.metatft.com/comps#TFT16_Explorer-TFT16_Bard",
     "color": "#eb4b4b",
-    "teamCode": "0236637232434d33235332f02c000000TFTSet16",
+    "teamCode": "0236e37037103536f3202df2e0321000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Noxus Sion LeBlanc",
     "link": "https://www.metatft.com/comps#TFT16_Noxus-TFT16_Sion-TFT16_Leblanc",
     "color": "#eb4b4b",
-    "teamCode": "0232e01733133237302536b32f000000TFTSet16",
+    "teamCode": "0236e37037103536f3202df2e0321000TFTSet16",
     "tier": "D"
   },
   {
@@ -483,13 +476,6 @@
     "tier": "D"
   },
   {
-    "name": "Juggernaut Singed",
-    "link": "https://www.metatft.com/comps#TFT16_Juggernaut-TFT16_Singed",
-    "color": "#eb4b4b",
-    "teamCode": "0236702535d32235434334b34a000000TFTSet16",
-    "tier": "D"
-  },
-  {
     "name": "Arcanist Ahri",
     "link": "https://www.metatft.com/comps#TFT16_Sorcerer-TFT16_Ahri",
     "color": "#eb4b4b",
@@ -497,22 +483,29 @@
     "tier": "D"
   },
   {
-    "name": "Ixtal Milio",
-    "link": "https://www.metatft.com/comps#TFT16_Explorer-TFT16_Milio",
+    "name": "Juggernaut Singed",
+    "link": "https://www.metatft.com/comps#TFT16_Juggernaut-TFT16_Singed",
     "color": "#eb4b4b",
-    "teamCode": "0234f02533d33c3363433552e0000000TFTSet16",
-    "tier": "D"
-  },
-  {
-    "name": "Void Malzahar",
-    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Malzahar",
-    "color": "#eb4b4b",
-    "teamCode": "0234f02533d33c3363433552e0000000TFTSet16",
+    "teamCode": "0236702535d32235434334b34a000000TFTSet16",
     "tier": "D"
   },
   {
     "name": "Ionia Jhin",
     "link": "https://www.metatft.com/comps#TFT16_Ionia-TFT16_Jhin",
+    "color": "#eb4b4b",
+    "teamCode": "0237435134d35002a34f370010000000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Ixtal Milio",
+    "link": "https://www.metatft.com/comps#TFT16_Explorer-TFT16_Milio",
+    "color": "#eb4b4b",
+    "teamCode": "0237435134d35002a34f370010000000TFTSet16",
+    "tier": "D"
+  },
+  {
+    "name": "Void Malzahar",
+    "link": "https://www.metatft.com/comps#TFT16_Void-TFT16_Malzahar",
     "color": "#eb4b4b",
     "teamCode": "0237435134d35002a34f370010000000TFTSet16",
     "tier": "D"
