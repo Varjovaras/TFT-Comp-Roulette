@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fade, fly, scale } from 'svelte/transition';
+	import { fade, fly } from 'svelte/transition';
 	import { backOut } from 'svelte/easing';
 
 	const blameReasons = [

@@ -17,10 +17,11 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.test
-
+    
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 scraped.html
 scraped_data.html
+scraped_data_error.html
