@@ -12,16 +12,26 @@
 	export let isSpinButtonDisabled: boolean;
 </script>
 
-<div class="relative h-48 w-full overflow-hidden rounded-md shadow-inner">
+<div class="relative h-56 w-full overflow-hidden rounded-xl bg-slate-950/50 shadow-[inset_0_0_40px_rgba(0,0,0,0.5)] border border-white/5">
+	<!-- Enhanced Indicator -->
 	<div
-		class="pointer-events-none absolute top-0 left-1/2 z-10 h-full w-1 -translate-x-1/2 transform bg-gradient-to-b from-blue-400 via-blue-600 to-blue-900 shadow-lg animate-pulse"
+		class="pointer-events-none absolute top-0 left-1/2 z-20 h-full w-1 -translate-x-1/2 transform"
 	>
+		<div class="absolute inset-0 bg-gradient-to-b from-tft-gold via-amber-400 to-tft-gold shadow-[0_0_15px_rgba(245,158,11,0.5)]"></div>
+		
+		<!-- Top Pointer -->
 		<div
-			class="absolute top-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-t-8 border-solid border-transparent border-t-blue-400 animate-bounce"
-		></div>
+			class="absolute top-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-b-full bg-tft-gold shadow-lg"
+		>
+			<div class="absolute inset-x-1 top-0 bottom-1 rounded-b-full bg-amber-200/50"></div>
+		</div>
+		
+		<!-- Bottom Pointer -->
 		<div
-			class="absolute bottom-0 left-1/2 h-0 w-0 -translate-x-1/2 transform border-x-4 border-b-8 border-solid border-transparent border-b-blue-700 animate-bounce"
-		></div>
+			class="absolute bottom-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-t-full bg-tft-gold shadow-lg"
+		>
+			<div class="absolute inset-x-1 top-1 bottom-0 rounded-t-full bg-amber-200/50"></div>
+		</div>
 	</div>
 	<div
 		bind:this={trackRef}

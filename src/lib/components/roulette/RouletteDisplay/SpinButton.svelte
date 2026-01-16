@@ -7,11 +7,26 @@
 <button
 	on:click={onClick}
 	disabled={isDisabled}
-	class="focus:ring-opacity-75 mt-8 rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-10 py-4 text-xl font-extrabold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:from-blue-600 hover:to-blue-800 focus:ring-4 focus:ring-blue-400 focus:outline-none disabled:cursor-not-allowed disabled:bg-gray-400"
+	class="group relative mt-10 overflow-hidden rounded-xl bg-slate-900 px-12 py-5 text-xl font-black uppercase tracking-widest text-white shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 disabled:scale-100 disabled:cursor-not-allowed disabled:opacity-50"
 >
-	{#if isSpinning}
-		Spinning...
-	{:else}
-		Spin
-	{/if}
+	<!-- Gold Background Gradient -->
+	<div class="absolute inset-0 bg-gradient-to-br from-tft-gold via-amber-400 to-tft-gold-dark opacity-90 transition-opacity group-hover:opacity-100"></div>
+	
+	<!-- Glow Effect -->
+	<div class="absolute inset-0 bg-white/20 opacity-0 transition-opacity group-hover:opacity-100"></div>
+
+	<!-- Shine Animation -->
+	<div class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent transition-transform duration-1000 group-hover:translate-x-full"></div>
+
+	<span class="relative z-10 flex items-center justify-center gap-2 drop-shadow-md">
+		{#if isSpinning}
+			<svg class="h-5 w-5 animate-spin" viewBox="0 0 24 24">
+				<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle>
+				<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+			</svg>
+			Spinning...
+		{:else}
+			Spin
+		{/if}
+	</span>
 </button>

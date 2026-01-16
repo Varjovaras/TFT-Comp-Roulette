@@ -3,7 +3,7 @@
 	import Navigator from '$lib/components/Navigator.svelte';
 </script>
 
-<div class="min-h-screen bg-gray-900">
+<div class="min-h-screen">
 	<Navigator />
 	<slot />
 </div>

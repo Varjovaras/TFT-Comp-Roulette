@@ -11,31 +11,42 @@
 </script>
 
 <div
-	class="relative mx-1 box-border flex h-48 flex-shrink-0 flex-col rounded-xl border-2 bg-gray-800/80 p-1.5 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:z-10"
+	class="relative mx-1 box-border flex h-56 flex-shrink-0 flex-col overflow-hidden rounded-xl border border-white/10 bg-slate-900 p-2 shadow-2xl transition-all duration-300 hover:scale-105 hover:z-10 hover:border-white/20"
 	class:winner={isWinner}
-	style="width: {width}px; height: {width}px; --rarity-color: {rarityColor}; border-color: {rarityColor};"
+	style="width: {width}px; --rarity-color: {rarityColor};"
 >
-	<div class="absolute top-0 left-0 h-1 w-full" style="background-color: {rarityColor};"></div>
-	<div class="flex h-full flex-col justify-between">
+	<!-- Rarity Bar -->
+	<div class="absolute top-0 left-0 h-1.5 w-full opacity-80" style="background-color: {rarityColor};"></div>
+	
+	<!-- Glow Background -->
+	<div class="absolute inset-0 opacity-10" style="background: radial-gradient(circle at center, {rarityColor}, transparent 70%);"></div>
+
+	<div class="relative flex h-full flex-col">
 		<div
-			class="relative flex flex-1 items-center justify-center overflow-hidden rounded-sm bg-gray-900 p-1.5"
+			class="relative flex flex-1 items-center justify-center overflow-hidden rounded-lg bg-slate-950/50 p-2 ring-1 ring-white/5"
 		>
 			{#if item.image}
 				<img
 					src={item.image}
 					alt={item.name}
-					class="h-auto max-h-full w-auto max-w-full object-contain"
+					class="h-auto max-h-full w-auto max-w-full object-contain transition-transform duration-500 hover:scale-110"
 				/>
 			{:else}
 				<span
-					class="flex h-full w-full items-center justify-center text-center text-sm font-bold text-white"
+					class="flex h-full w-full items-center justify-center text-center text-sm font-bold text-slate-300"
 					>{item.name}</span
 				>
 			{/if}
 		</div>
-		<div class="p-2 text-center">
+		
+		<div class="pt-3 pb-1">
 			<div
-				class="mb-1 overflow-hidden text-xs font-bold text-ellipsis whitespace-nowrap text-white"
+				class="overflow-hidden text-center text-[10px] font-bold tracking-wider uppercase text-slate-400"
+			>
+				{item.rarity || 'Common'}
+			</div>
+			<div
+				class="mt-0.5 overflow-hidden text-center text-xs font-extrabold tracking-tight text-white line-clamp-2"
 				title={item.name}
 			>
 				{item.name}
