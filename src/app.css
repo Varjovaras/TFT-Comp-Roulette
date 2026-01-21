@@ -1,37 +1,37 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Outfit', sans-serif;
+	--font-sans: 'Outfit', sans-serif;
 
-  --color-tft-navy: #0f172a;
-  --color-tft-blue-deep: #1e293b;
-  --color-tft-blue-light: #334155;
-  --color-tft-gold: #f59e0b;
-  --color-tft-gold-light: #fbbf24;
-  --color-tft-gold-dark: #d97706;
+	--color-tft-navy: #0f172a;
+	--color-tft-blue-deep: #1e293b;
+	--color-tft-blue-light: #334155;
+	--color-tft-gold: #f59e0b;
+	--color-tft-gold-light: #fbbf24;
+	--color-tft-gold-dark: #d97706;
 }
 
 @layer base {
-  body {
-    @apply bg-slate-950 text-slate-50 antialiased;
-    font-family: var(--font-sans);
-    background-image: 
-      radial-gradient(circle at 20% 20%, rgba(30, 41, 59, 0.4) 0%, transparent 40%),
-      radial-gradient(circle at 80% 80%, rgba(15, 23, 42, 0.4) 0%, transparent 40%);
-    min-height: 100vh;
-  }
+	body {
+		@apply bg-slate-950 text-slate-50 antialiased;
+		font-family: var(--font-sans);
+		background-image:
+			radial-gradient(circle at 20% 20%, rgba(30, 41, 59, 0.4) 0%, transparent 40%),
+			radial-gradient(circle at 80% 80%, rgba(15, 23, 42, 0.4) 0%, transparent 40%);
+		min-height: 100vh;
+	}
 }
 
 @layer components {
-  .glass-panel {
-    @apply bg-slate-900/40 backdrop-blur-xl border border-slate-700/50 shadow-2xl;
-  }
+	.glass-panel {
+		@apply border border-slate-700/50 bg-slate-900/40 shadow-2xl backdrop-blur-xl;
+	}
 
-  .gold-glow {
-    @apply shadow-[0_0_20px_rgba(245,158,11,0.3)];
-  }
+	.gold-glow {
+		@apply shadow-[0_0_20px_rgba(245,158,11,0.3)];
+	}
 
-  .gold-text {
-    @apply bg-gradient-to-b from-amber-200 via-amber-400 to-amber-600 bg-clip-text text-transparent;
-  }
+	.gold-text {
+		@apply bg-gradient-to-b from-amber-200 via-amber-400 to-amber-600 bg-clip-text text-transparent;
+	}
 }
