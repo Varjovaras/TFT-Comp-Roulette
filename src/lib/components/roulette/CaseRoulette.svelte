@@ -7,35 +7,34 @@
 
 	export let items: Item[] = [];
 	export let onItemWon: (item: Item) => void = () => {};
-	export let spinDuration: number = 8;
-	export let itemWidth: number = 140;
-	export let itemsInView: number = 5;
 	export let customClassName: string = '';
 	export let disabled: boolean = false;
 
-	let itemWidthSignal = itemWidth;
-	let itemsInViewSignal = itemsInView;
+	const SPIN_DURATION = 8;
+	const DEFAULT_ITEM_WIDTH = 140;
+	const DEFAULT_ITEMS_IN_VIEW = 5;
+
+	let itemWidth = DEFAULT_ITEM_WIDTH;
+	let itemsInView = DEFAULT_ITEMS_IN_VIEW;
 
 	const itemMarginHorizontal = 4;
-	$: actualItemSpace = itemWidthSignal + itemMarginHorizontal * 2;
+	$: actualItemSpace = itemWidth + itemMarginHorizontal * 2;
 
 	let isSpinning = false;
 	let rouletteItems: Item[] = [];
 	let spinOffset = 0;
 	let trackRef: HTMLDivElement;
 
-	$: itemsToSpin = items;
-
 	function updateDimensions() {
 		if (window.innerWidth <= 480) {
-			itemWidthSignal = 100;
-			itemsInViewSignal = 3;
+			itemWidth = 100;
+			itemsInView = 3;
 		} else if (window.innerWidth <= 768) {
-			itemWidthSignal = 120;
-			itemsInViewSignal = 4;
+			itemWidth = 120;
+			itemsInView = 4;
 		} else {
-			itemWidthSignal = itemWidth;
-			itemsInViewSignal = itemsInView;
+			itemWidth = DEFAULT_ITEM_WIDTH;
+			itemsInView = DEFAULT_ITEMS_IN_VIEW;
 		}
 	}
 
@@ -45,8 +44,8 @@
 
 		// Set initial CSS properties on mount
 		if (trackRef) {
-			trackRef.style.setProperty('--spin-duration', `${spinDuration}s`);
-			trackRef.style.setProperty('--item-width', `${itemWidthSignal}px`);
+			trackRef.style.setProperty('--spin-duration', `${SPIN_DURATION}s`);
+			trackRef.style.setProperty('--item-width', `${itemWidth}px`);
 			trackRef.style.setProperty('--item-margin-horizontal', `${itemMarginHorizontal}px`);
 			trackRef.style.setProperty('--actual-item-space', `${actualItemSpace}px`);
 		}
@@ -59,23 +58,23 @@
 	});
 
 	// Reactive block to generate/re-generate roulette items only on client
-	// This will run on initial mount (when `browser` is true) and whenever `itemsToSpin` changes
-	$: if (browser && itemsToSpin) {
-		rouletteItems = generateRouletteItems(itemsToSpin, spinDuration);
+	// This will run on initial mount (when `browser` is true) and whenever `items` changes
+	$: if (browser && items) {
+		rouletteItems = generateRouletteItems(items, SPIN_DURATION);
 	}
 
 	// This reactive block will only run in the browser after trackRef is bound
 	$: if (trackRef && typeof window !== 'undefined') {
-		trackRef.style.setProperty('--spin-duration', `${spinDuration}s`);
-		trackRef.style.setProperty('--item-width', `${itemWidthSignal}px`);
+		trackRef.style.setProperty('--spin-duration', `${SPIN_DURATION}s`);
+		trackRef.style.setProperty('--item-width', `${itemWidth}px`);
 		trackRef.style.setProperty('--item-margin-horizontal', `${itemMarginHorizontal}px`);
 		trackRef.style.setProperty('--actual-item-space', `${actualItemSpace}px`);
 	}
 
 	const handleSpin = (): void => {
-		if (isSpinning || !itemsToSpin.length || !trackRef) return;
+		if (isSpinning || !items.length || !trackRef) return;
 
-		const winnerFromPool = selectWeightedRandomItem(itemsToSpin);
+		const winnerFromPool = selectWeightedRandomItem(items);
 
 		if (!winnerFromPool) {
 			console.error('Could not determine a winner from the pool.');
@@ -94,7 +93,7 @@
 		};
 		newItems[winnerIndex] = actualWinnerInArray;
 
-		const viewportVisualWidth = itemsInViewSignal * actualItemSpace;
+		const viewportVisualWidth = itemsInView * actualItemSpace;
 		const indicatorPositionInViewport = viewportVisualWidth / 2;
 		const winnerItemCenterInTrack = winnerIndex * actualItemSpace + actualItemSpace / 2;
 		const targetOffset = winnerItemCenterInTrack - indicatorPositionInViewport;
@@ -129,7 +128,7 @@
 		}
 	};
 
-	$: isSpinButtonDisabled = isSpinning || disabled || itemsToSpin.length === 0;
+	$: isSpinButtonDisabled = isSpinning || disabled || items.length === 0;
 </script>
 
 <div
@@ -139,7 +138,7 @@
 		{isSpinning}
 		{spinOffset}
 		{rouletteItems}
-		itemWidth={itemWidthSignal}
+		{itemWidth}
 		bind:trackRef
 		onSpinClick={handleSpin}
 		{isSpinButtonDisabled}

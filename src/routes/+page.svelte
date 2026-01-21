@@ -122,13 +122,7 @@
 			</div>
 		{:else if rouletteItems.length > 0}
 			<section class="space-y-12">
-				<CaseRoulette
-					items={rouletteItems}
-					onItemWon={handleItemWon}
-					spinDuration={8}
-					itemWidth={160}
-					itemsInView={5}
-				/>
+				<CaseRoulette items={rouletteItems} onItemWon={handleItemWon} />
 
 				<!-- Instructions/Info -->
 				<div class="grid gap-6 md:grid-cols-3">

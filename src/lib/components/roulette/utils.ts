@@ -22,10 +22,11 @@ export function selectWeightedRandomItem(items: Item[]): Item | null {
 		return null;
 	}
 
-	const totalWeight = items.reduce((sum, item) => {
+	let totalWeight = 0;
+	for (const item of items) {
 		const weight = typeof item.weight === 'number' ? item.weight : Number(item.weight) || 0;
-		return sum + weight;
-	}, 0);
+		totalWeight += weight;
+	}
 	let randomNum = Math.random() * totalWeight;
 
 	for (const item of items) {

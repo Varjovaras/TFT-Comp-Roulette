@@ -2,7 +2,6 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import RouletteIcon from './icons/RouletteIcon.svelte';
-	import BlamerIcon from './icons/BlamerIcon.svelte';
 
 	const navItems = [
 		{
