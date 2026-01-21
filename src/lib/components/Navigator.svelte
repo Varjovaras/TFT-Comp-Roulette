@@ -7,13 +7,8 @@
 	const navItems = [
 		{
 			label: 'Roulette',
-			href: '/roulette',
+			href: '/',
 			icon: RouletteIcon
-		},
-		{
-			label: 'Blamer',
-			href: '/blamer',
-			icon: BlamerIcon
 		}
 	];
 
