@@ -1,34 +1,38 @@
 <script lang="ts">
-	import type { CaseItem } from '../types';
+	import type { Item } from '../types';
 	import RouletteItem from './RouletteItem.svelte';
 	import SpinButton from './SpinButton.svelte';
 
 	export let isSpinning: boolean;
 	export let spinOffset: number;
-	export let rouletteItems: CaseItem[];
+	export let rouletteItems: Item[];
 	export let itemWidth: number;
 	export let trackRef: HTMLDivElement;
 	export let onSpinClick: () => void;
 	export let isSpinButtonDisabled: boolean;
 </script>
 
-<div class="relative h-56 w-full overflow-hidden rounded-xl bg-slate-950/50 shadow-[inset_0_0_40px_rgba(0,0,0,0.5)] border border-white/5">
+<div
+	class="relative h-56 w-full overflow-hidden rounded-xl border border-white/5 bg-slate-950/50 shadow-[inset_0_0_40px_rgba(0,0,0,0.5)]"
+>
 	<!-- Enhanced Indicator -->
 	<div
 		class="pointer-events-none absolute top-0 left-1/2 z-20 h-full w-1 -translate-x-1/2 transform"
 	>
-		<div class="absolute inset-0 bg-gradient-to-b from-tft-gold via-amber-400 to-tft-gold shadow-[0_0_15px_rgba(245,158,11,0.5)]"></div>
-		
+		<div
+			class="from-tft-gold to-tft-gold absolute inset-0 bg-gradient-to-b via-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.5)]"
+		></div>
+
 		<!-- Top Pointer -->
 		<div
-			class="absolute top-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-b-full bg-tft-gold shadow-lg"
+			class="bg-tft-gold absolute top-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-b-full shadow-lg"
 		>
 			<div class="absolute inset-x-1 top-0 bottom-1 rounded-b-full bg-amber-200/50"></div>
 		</div>
-		
+
 		<!-- Bottom Pointer -->
 		<div
-			class="absolute bottom-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-t-full bg-tft-gold shadow-lg"
+			class="bg-tft-gold absolute bottom-0 left-1/2 h-4 w-6 -translate-x-1/2 transform rounded-t-full shadow-lg"
 		>
 			<div class="absolute inset-x-1 top-1 bottom-0 rounded-t-full bg-amber-200/50"></div>
 		</div>

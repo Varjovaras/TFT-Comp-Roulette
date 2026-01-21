@@ -1,21 +1,17 @@
-export interface CaseItem {
-	id: string; // Added id property for Svelte key
+export type Item = {
 	name: string;
-	rarity: keyof typeof RARITY_COLORS;
-	weight: number;
+	color: string;
+	teamCode?: string;
 	image?: string;
-	description?: string;
-	color?: string; // Add color property for roulette item color
-}
+	[key: string]: string | number | boolean | null | undefined;
+};
 
 export const RARITY_COLORS = {
-	Consumer: '#b0c3d9',
-	Industrial: '#5e98d9',
-	'Mil-spec': '#4b69ff',
-	Restricted: '#8847ff',
-	Classified: '#d32ce6',
-	Covert: '#eb4b4b',
-	'Rare Special Item': '#e4ae39'
+	S: '#FFD700',
+	A: '#4b69ff',
+	B: '#8847ff',
+	C: '#b0c3d9',
+	D: '#eb4b4b'
 } as const;
 
 export interface RoulettePresetItemConfig<T extends string> {

@@ -1,17 +1,13 @@
-import type { CaseItem } from './types';
+import type { Item } from './types';
 import { RARITY_COLORS } from './types';
 
-export function generateRouletteItems(
-	items: CaseItem[],
-	duration: number,
-	itemsInView: number
-): CaseItem[] {
+export function generateRouletteItems(items: Item[], duration: number): Item[] {
 	if (!items || items.length === 0) {
 		return [];
 	}
 
 	const totalItems = Math.max(100, Math.floor(duration * 10)); // Ensure enough items for smooth spin
-	const generatedItems: CaseItem[] = [];
+	const generatedItems: Item[] = [];
 
 	for (let i = 0; i < totalItems; i++) {
 		const randomItem = items[Math.floor(Math.random() * items.length)];
@@ -21,25 +17,45 @@ export function generateRouletteItems(
 	return generatedItems;
 }
 
-export function selectWeightedRandomItem(items: CaseItem[]): CaseItem | null {
+export function selectWeightedRandomItem(items: Item[]): Item | null {
 	if (!items || items.length === 0) {
 		return null;
 	}
 
-	const totalWeight = items.reduce((sum, item) => sum + item.weight, 0);
+	const totalWeight = items.reduce((sum, item) => {
+		const weight = typeof item.weight === 'number' ? item.weight : Number(item.weight) || 0;
+		return sum + weight;
+	}, 0);
 	let randomNum = Math.random() * totalWeight;
 
 	for (const item of items) {
-		if (randomNum < item.weight) {
+		const weight = typeof item.weight === 'number' ? item.weight : Number(item.weight) || 0;
+		if (randomNum < weight) {
 			return item;
 		}
-		randomNum -= item.weight;
+		randomNum -= weight;
 	}
 
 	// Fallback in case of floating point inaccuracies, return a random item
 	return items[Math.floor(Math.random() * items.length)];
 }
 
-export function getItemColor(item: CaseItem): string {
-	return RARITY_COLORS[item.rarity] || '#b0c3d9'; // Default to Consumer color
+export function getItemColor(item: Item): string {
+	// Prefer item.color from scraped data, fallback to RARITY_COLORS by tier
+	const tier = typeof item.tier === 'string' ? item.tier : '';
+	if (typeof item.color === 'string' && item.color) return item.color;
+	switch (tier) {
+		case 'S':
+			return RARITY_COLORS.S;
+		case 'A':
+			return RARITY_COLORS.A;
+		case 'B':
+			return RARITY_COLORS.B;
+		case 'C':
+			return RARITY_COLORS.C;
+		case 'D':
+			return RARITY_COLORS.D;
+		default:
+			return '#b0c3d9';
+	}
 }

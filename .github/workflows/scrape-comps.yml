@@ -28,9 +28,6 @@ jobs:
 
       - name: Run scraper
         run: bun scripts/scrape-to-json.ts
-
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update comps.json [auto]'
-          file_pattern: static/comps.json
+        env:
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}

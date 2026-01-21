@@ -1,17 +1,19 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
+	import RouletteIcon from './icons/RouletteIcon.svelte';
+	import BlamerIcon from './icons/BlamerIcon.svelte';
 
 	const navItems = [
 		{
 			label: 'Roulette',
 			href: '/roulette',
-			icon: `<svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 inline-block mr-2' fill='none' viewBox='0 0 24 24' stroke='currentColor'><circle cx='12' cy='12' r='10' stroke-width='2'/><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6l4 2' /></svg>`
+			icon: RouletteIcon
 		},
 		{
 			label: 'Blamer',
 			href: '/blamer',
-			icon: `<svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 inline-block mr-2' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m2 0a8 8 0 11-16 0 8 8 0 0116 0z' /></svg>`
+			icon: BlamerIcon
 		}
 	];
 
@@ -41,7 +43,7 @@
 	</div>
 
 	<div class="flex items-center gap-3">
-		{#each navItems as item}
+		{#each navItems as item (item.href)}
 			<button
 				on:click={() => gotoNav(item.href)}
 				class="group relative flex items-center gap-2 overflow-hidden rounded-xl px-6 py-2.5 font-bold transition-all duration-300
@@ -50,7 +52,9 @@
 					: 'bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white'}"
 			>
 				<span class="relative z-10 flex items-center gap-2">
-					<div class="opacity-70 transition-opacity group-hover:opacity-100">{@html item.icon}</div>
+					<div class="opacity-70 transition-opacity group-hover:opacity-100">
+						<svelte:component this={item.icon} />
+					</div>
 					{item.label}
 				</span>
 
